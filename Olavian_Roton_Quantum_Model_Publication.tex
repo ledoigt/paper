@@ -1,640 +1,708 @@
 \documentclass[11pt,a4paper]{article}
 
-\usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb,physics}
 \usepackage{geometry}
-\usepackage[bookmarks=false]{hyperref}  % recommended
-
+\usepackage[bookmarks=false]{hyperref}
 \hypersetup{
   pdfencoding=unicode,
-  psdextra,
-  pdftitle={A Resonance-Based Framework for Emergent Matter Formation},
-  pdfauthor={Olav Le Doigt}
+  psdextra
 }
-
 \geometry{margin=2.4cm}
 
 \newcommand{\paperversion}{v2}
 
-\title{A Resonance-Based Framework for Emergent Matter Formation:\\
-Conceptual Basis for the Roton Quantum Model}
-
+\title{A Resonance-Based Framework for Emergent Matter Formation\\
+Conceptual Basis of the Roton Quantum Model}
 \author{Olav Le Doigt}
 \date{\today\;\;(\paperversion)}
 
 \begin{document}
 \maketitle
 
-% ABSTRACT pasted below
-
+% ============================================================
 \begin{abstract}
-We develop the conceptual basis for a deterministic resonance-based physical framework, referred to as the Roton Quantum Model (RQM), which aims to unify the emergence of photons, electrons, compound matter, atomic structure and cosmic-scale forces through a common rotatory resonance principle. The model does not begin with discrete particles nor imposed field quantization; rather, matter and fields emerge as stable self-sustaining resonant configurations of local energy-density oscillations within an underlying medium, termed LEDO-field (Local Energy Density Oscillation field). In this picture, all observable entities are higher-order rotational states and structured combinations of elementary rotational solitons, whose resonance coupling determines stability, binding and long-range interactions.
+We introduce the Roton Quantum Model (RQM), a resonance-based conceptual framework aimed at
+explaining the emergence of matter, interaction, and hierarchy from minimal dynamical
+principles. Rather than postulating particles, fields, or quantization rules a priori,
+the model describes physical structure as arising from stable rotational resonance
+configurations within a continuous energy-density oscillation field.
 
-Within this model, all forms of rotationally coupled entities are termed Rotons which emerge resonance potentials into an underlying field. Layered rotonal hierarchies create structure for locally stable entities and their interactions and forces. Light represents a basic single-axis Roton state, free of intrinsic rotational inertia, whereas electrons are interpreted as three-axis or tri-planar compound rotational states. Higher hierarchical entities arise through resonance locking, axial entanglement and phase-constrained coupling between multi-axis Rotons. The RQM theory predicts that forces conventionally interpreted as electrostatic, nuclear or gravitational arise instead as directional resonance potentials emerging from rotational alignment, frequency matching, and energy-density gradients. Repulsion is generated through saturation of local resonance capacity and increased energy-density pressure, whereas attraction arises from rotational co-alignment and entanglement of axes.
+In this framework, localized and persistent entities emerge through resonance closure,
+coherence, and inertia-limited reconfiguration. Photons, electrons, nuclei, atoms, and
+larger-scale structures are interpreted as different organizational levels of the same
+underlying resonance dynamics, distinguished by internal geometry and rotational inertia
+rather than by fundamentally different constituents. Conventional forces are understood
+as effective manifestations of a small set of resonance interaction regimes, including
+axial entanglement, distance locking, isotropic residual attraction, and energy-density
+saturation.
 
-Numerical simulations of Roton configurations show stable equilibrium distances, quantized orbital structures, long-range phase coherence, and emergent shell-like energy wells. These phenomena reproduce central qualitative features of atomic electron trajectories, nucleon clustering, alpha-particle stability, and hierarchical orbital ordering without requiring externally imposed quantum conditions or singular potentials. The model further suggests that isotopic stability corresponds to self-maintaining resonance networks in which multi-axial Rotons remain co-aligned under perturbation.
+The RQM separates global resonance consistency from the finite-speed, inertia-limited motion of physical
+structures. This distinction provides a constructive interpretation of stability,
+entanglement, inertia, and hierarchy without invoking point-like entities, singular
+potentials, or observer-dependent postulates.
 
-The RQM additionally implies that time dilation, inertial resistance, orbital locking, molecular bonding and even large-scale galactic forces all arise from differences in rotational inertia of nested resonant structures. Axial entanglement appears as distance-independent coupling—a manifestation of bitemporal resonance coherence—while spatial motion of stable entities remains inertia-limited.
-
-Several open questions define the immediate research direction: (i) establishing quantitative scaling laws from LEDO-field parameters, (ii) deriving closed tensor formulations of resonance potentials, (iii) long-duration simulations showing the spontaneous emergence of nuclei, atoms and stable molecules from homogeneous initial conditions, and (iv) formulation of measurable predictions regarding isotope distributions, resonance-dependent orbital radii and propagation delays of rotational reorientation.
-
-The RQM highlights that many assumptions of contemporary quantum and particle theories—singularities, renormalization, externally imposed quantization operators—emerge automatically as macroscopic consequences of resonance-stabilized dynamics rather than axioms. The model is thereby proposed as an alternative conceptual foundation for matter formation, interaction, and physical structure across scales.
+The model is presented as a conceptual foundation rather than a closed theory. Its purpose
+is to identify a coherent ontology and interaction taxonomy from which known qualitative
+features of physical structure can emerge naturally, and to define a focused program for
+future analytical and numerical investigation.
 \end{abstract}
 
-% --------------
 
-\section{Introduction}
-Understanding how stable matter forms from energy remains an open conceptual challenge in modern physics. Conventional approaches—including quantum field theory, renormalized interaction terms, exchange boson formulations, and probabilistic state evolution—successfully describe observed outcomes but do not reveal a constructive mechanism from which stability, inertial response, and quantization laws arise naturally.
+% ============================================================
+\section{Introduction and Motivation}
 
-We propose an alternative formulation in which observable particles and interactions are not postulated, but emerge as stable resonances within a continuously oscillating field medium. This framework, referred to as the Roton Quantum Model (RQM), assumes that rotating energy density patterns form self-stabilizing closed trajectories in a dynamic energy field. Persistent rotational states constitute photons, electrons, nucleons, and larger bound systems.
+The emergence of stable matter from energy remains one of the central conceptual challenges
+in fundamental physics. While contemporary theories successfully predict experimental
+outcomes across a wide range of scales, they do so by postulating particles, fields, and
+interaction laws whose internal structure and origin are not derived, but assumed.
 
-The goal of this paper is to introduce the foundational assumptions of RQM, derive the effective interaction terms arising from rotational coupling, and show how material structure can be interpreted as a hierarchy of resonant configurations. By connecting rotational inertia, phase-locking, and resonance alignment, we demonstrate how classical forces and quantum effects appear as emergent macroscopic projections of deeper coherent dynamics.
+In particular, quantization rules, interaction potentials, and intrinsic properties such as
+mass, charge, and spin are typically introduced axiomatically or through effective
+descriptions. As a result, modern physics provides highly accurate answers to the question
+of \emph{how} physical systems behave, while leaving largely open the question of
+\emph{why} stable structures exist at all, and why they take the specific forms observed.
 
-% --------------
+This work proposes an alternative conceptual framework in which matter, interaction, and
+hierarchy are not fundamental ingredients, but emergent consequences of a single organizing
+principle: rotational resonance in a continuous energy-density field. Rather than beginning
+with particles or quantized fields, the approach explores how stable, localized, and
+hierarchically organized structures can arise from resonance closure, coherence, and
+inertia-limited reconfiguration.
 
-\section{Motivation}
-Conventional quantum models impose quantization axiomatically through boundary conditions, ladder operators, or eigenvalue restrictions. Nuclear binding is postulated rather than derived, entanglement is probabilistic rather than constructive, and temporal evolution depends on statistical measurement outcomes.
+The Roton Quantum Model (RQM) is introduced as a constructive proposal in this direction.
+Its aim is not to replace the predictive machinery of existing theories, but to provide a
+deeper explanatory layer beneath them—one in which photons, electrons, nuclei, atoms, and
+even large-scale structures appear as different organizational levels of the same underlying
+resonance dynamics.
 
-The RQM aims to provide a framework where:
+The focus of this paper is therefore conceptual rather than phenomenological. We seek to
+identify minimal assumptions, articulate clear design principles, and demonstrate how a
+coherent ontology based on resonance can reproduce known qualitative features of physical
+structure without invoking singularities, point-like entities, or externally imposed
+quantization rules.
+
+
+% ============================================================
+\section{Conceptual Gaps and Design Goals}
+\label{sec:design_goals}
+
+The Roton Quantum Model is motivated not by shortcomings in predictive accuracy, but by
+persistent conceptual gaps in the foundations of contemporary physical theory. These gaps
+do not invalidate existing models; rather, they highlight the absence of a simple,
+constructive picture linking microscopic dynamics, stable structure, and large-scale
+organization.
+
+\subsection{Descriptive success versus constructive explanation}
+
+Modern quantum and field-theoretic frameworks describe physical phenomena through abstract
+state spaces, operators, and effective interaction terms. While extraordinarily successful
+in practice, these formalisms largely encode observed regularities rather than derive them.
+Quantization, binding energies, shell structures, and clustering patterns are imposed through
+boundary conditions or fitted parameters, rather than emerging from an explicit dynamical
+mechanism in real space.
+
+A central design goal of the RQM is therefore to shift from a descriptive to a constructive
+perspective: to identify minimal dynamical principles from which stability and structure
+follow naturally.
+
+\subsection{Point-like entities, singular interactions, and renormalization}
+
+Many foundational models represent elementary entities as point-like objects interacting
+through singular potentials. This idealization leads to ultraviolet divergences and the need
+for renormalization procedures that are mathematically consistent but conceptually opaque.
+The reliance on infinities and subsequent regularization suggests that essential geometric
+or structural information is missing from the underlying description.
+
+The RQM is explicitly designed to avoid point-like primitives and singular interaction laws.
+All entities are assumed to possess finite spatial extent, finite resonance capacity, and
+finite response times.
+
+\subsection{Entanglement, measurement, and observer dependence}
+
+In standard quantum mechanics, entanglement is formulated as a property of abstract composite
+states, with nonlocal correlations postulated rather than derived. The resulting measurement
+problem introduces a tension between continuous unitary evolution and discontinuous state
+reduction, often assigning a special role to observation itself.
+
+The RQM adopts a different stance: entanglement is treated as a dynamical consequence of
+persistent resonance alignment between extended structures. No observer-dependent postulates
+are required; coherence and decoherence arise from stability or disruption of resonance
+conditions.
+
+\subsection{Spin, inertia, and internal structure}
+
+Properties such as spin and inertial mass are introduced in standard theory as intrinsic
+attributes or representation labels, rather than as consequences of internal dynamics.
+While this approach is operationally successful, it obscures the physical origin of these
+quantities and their relation to spatial structure.
+
+A key design goal of the RQM is to interpret inertia and spin geometrically, as manifestations
+of resistance to reorientation and precession within nested rotational structures.
+
+\subsection{Nuclear structure and hierarchy}
+
+Nuclear stability, isotope patterns, and the special role of alpha-particle like configurations are
+well documented empirically, yet are described by a patchwork of phenomenological models.
+A unifying geometric or dynamical principle operating across nuclear, atomic, and molecular
+scales remains elusive.
+
+The RQM is constructed to account for hierarchy explicitly: larger structures arise as
+resonance-stable organizations of smaller ones, without introducing scale-specific laws.
+
+\subsection{Design goals of the Roton Quantum Model}
+
+Summarizing these considerations, the RQM is guided by the following design principles:
 \begin{enumerate}
-  \item quantization arises from resonance closure,
-  \item entanglement is the natural limit of co-rotational alignment, and
-  \item stability is equivalent to minimized energy-density gradients, where
-  \item stable structures arise from iterative optimization of local energy density via entanglement and rotonal resonances
+  \item all physical entities are extended and finite,
+  \item interaction arises from resonance rather than force mediation,
+  \item stability corresponds to resonance closure and energy-density optimization,
+  \item entanglement is a dynamical alignment phenomenon, not a measurement postulate,
+  \item inertia limits reconfiguration but not global consistency,
+  \item the same interaction taxonomy applies across physical scales.
 \end{enumerate}
 
-Rather than postulating elementary point-like entities, we take finite-sized rotating configurations as the basic carriers of localization, thereby constraining admissible interaction distances. In this view, the persistence of the universe across scales reflects the generic tendency of such configurations to resist complete destruction: structure forms wherever resonance-stabilized states can emerge and prevent total annihilation.
-
-\section{Conceptual Gaps in Current Standard Physical Theory}
-\label{sec:conceptual_gaps}
-
-\emph{Pre-note: The following discussion reflects the conceptual motivation of the present author and is not intended as a complete critique of the standard model.}
-
-The Roton Quantum Model is not proposed as a replacement for the quantitative success of contemporary quantum field theory, nuclear models or general relativity. Rather, it is motivated by a set of conceptual gaps and tensions that persist in the standard theoretical frameworks. From the perspective of this work, several issues are particularly relevant.
-
-\subsection{Descriptive success versus constructive mechanism}
-
-Standard quantum theory is extraordinarily successful in predicting experimental outcomes, but it is largely formulated in terms of abstract state vectors, operators and effective potentials. Many key structures (quantum numbers, selection rules, effective interaction terms) are introduced as axioms or fitting ingredients rather than arising from a constructive dynamical mechanism. As a consequence, the formalism explains \emph{how} observables correlate, but only weakly addresses \emph{why} stable entities and specific structural patterns (e.g.\ preferred bound states, shell structures, clustering) exist in the first place.
-
-\subsection{Point-like entities, singular potentials and renormalization}
-
-Elementary particles are typically modeled as point-like, interacting via singular $1/r$ or even stronger short-range potentials. This idealization leads to ultraviolet divergences and necessitates renormalization procedures that are mathematically well-defined but conceptually opaque. The need to regularize infinities is at odds with the intuitive expectation that physical entities possess an extended structure and that interaction strengths should remain finite at all scales. A framework based on finite-sized rotating configurations in an underlying medium seeks to avoid such singular behavior from the outset.
-
-\subsection{Entanglement, measurement and the role of the observer}
-
-In standard quantum mechanics, entanglement is implemented at the level of abstract tensor-product states, with nonlocal correlations postulated rather than derived from a concrete dynamical coupling mechanism. The ``measurement problem''---the coexistence of unitary evolution and non-unitary collapse---further blurs the line between physical dynamics and observational procedures. Many textbook explanations rely on the presence of an ``observer'' or on intrinsically ``undefined superposed states'' prior to measurement. From the viewpoint of the present work, this is conceptually unsatisfactory: entanglement is instead treated as a natural consequence of axial resonance locking between extended rotating entities, and no special ontological status is assigned to an observer.
-
-\subsection{Nuclear structure and isotope stability}
-
-Standard nuclear models (shell model, liquid-drop model, cluster models, QCD-based approaches) reproduce many empirical regularities, yet often require a patchwork of effective interactions, parameter fits and phenomenological assumptions. In particular, the special role of the $\alpha$-particle, the detailed pattern of stable and unstable isotopes, and the emergence of preferred nucleon clusters are described, but not derived from a single simple geometric or resonance-based principle in real space. This motivates the search for a framework in which nuclear binding, clustering and isotope boundaries emerge transparently from resonance geometry and energy-density optimization.
-
-\subsection{Inertia, mass and energy density}
-
-Inertia and mass are incorporated in current theory primarily as parameters (e.g.\ rest mass in the Lagrangian, effective mass in condensed-matter models) or as vacuum expectation values of fields (Higgs mechanism). While this is quantitatively powerful, it leaves open the question of how inertial resistance is linked to underlying spatial structure and local energy-density distributions. A model in which inertia is understood as resistance to reorientation of nested rotational configurations in an energy-density field provides a more geometric and dynamical interpretation of mass-like behavior.
-
-\subsection{Dark components and large-scale structure}
-
-Cosmological modeling currently invokes dark matter and dark energy as effective components to account for galactic rotation curves, large-scale structure formation and cosmic acceleration. These components are inferred from discrepancies between observed dynamics and predictions based on visible matter and known forces, but their microphysical origin remains unclear. In particular, the contribution of rotational and resonant large-scale structures (e.g.\ galactic discs and filaments) is typically not treated as an explicit dynamical source of additional forces. The Roton perspective suggests that part of the ``missing'' dynamics may be attributed to collective rotational resonance effects in the LEDO-field rather than to unseen particulate matter alone.
-
-\subsection{Lack of a constructive picture of spin}
-
-In standard quantum theory, \emph{spin} is introduced as an intrinsic form of angular momentum, encoded in abstract spinor degrees of freedom and represented mathematically by the generators of an internal symmetry. While this formalism successfully predicts a wide range of experimental results (such as Stern--Gerlach splitting, fine structure and magnetic moments), it does not provide a concrete substructural mechanism for what ``spins'' or how this intrinsic angular momentum is rooted in an underlying physical configuration. Spin is treated as a primitive quantum number associated with state vectors, rather than as an emergent property of an explicitly modeled internal motion or resonance.
-
-From the perspective of the Roton Quantum Model, this creates a conceptual gap: the measurable spin projections along different axes are well described, but the model does not explain \emph{why} a given quantum possesses these particular spin properties, nor how they arise from a deeper level of organization. Moreover, the standard formulation ties spin outcomes explicitly to the choice of measurement axis and apparatus, which reinforces an observer-centred description (projection of a state onto a chosen measurement basis) rather than a constructive account in terms of real geometric structure.
-
-Within the RQM framework, we instead interpret spin as a manifestation of the underlying rotonal architecture: each Roton carries one or more genuine rotational axes and associated planes, whose orientations and couplings determine the effective spin degrees of freedom. Spin projections then correspond to the alignment and precession of these real rotational axes relative to external resonance fields and measuring devices, rather than to purely abstract state-space components. In this view, the familiar spin-quantization phenomena emerge from the allowed stable configurations of rotonal rotation within the LEDO-field, providing a concrete geometrical and dynamical basis for what is otherwise treated as a purely formal property.
-
-\emph{This reinterpretation aims to replace observer-centric projection rules by a constructive dynamics of rotational alignment in the underlying resonance field.}
-
-\medskip
-
-These conceptual gaps do not invalidate the predictive achievements of standard theory; rather, they highlight the absence of a simple, continuous, and structurally intuitive picture linking microscopic rotational dynamics, entanglement, nuclear structure and cosmic-scale organization. The Roton Quantum Model is intended as a constructive proposal to address precisely this missing layer of explanation.
+These goals define the conceptual foundation upon which the subsequent sections introduce
+the specific ontology and dynamics of the Roton framework.
 
 
+% ============================================================
+\section{Foundational Ontology of the Roton Quantum Model}
+\label{sec:foundational_ontology}
 
+The Roton Quantum Model (RQM) is built on a minimal ontological framework intended to
+support the emergence of stable structure, interaction, and inertia without introducing
+point-like entities, singular potentials, or externally imposed quantization rules.
+This section defines the fundamental objects and organizing principles of the model.
+All interaction mechanisms and structural phenomena discussed later are derived exclusively
+from these foundations.
 
-% ------------
+\subsection{The LEDO-Field: Local Energy Density Oscillations}
 
-\section{Foundational Rules of the Roton Model}
+The LEDO-field (Local Energy Density Oscillation field) is introduced as a continuous,
+spatially extended substrate embedded within spacetime.
+It is not a force field, carrier medium, or additional dynamical degree of freedom.
+Rather, it represents the oscillatory background in which local energy-density patterns
+can form, persist, and interact through resonance.
 
-\subsection{Postulate 1: Energy exists as rotational field configurations}
-Energy is represented as rotational wave configurations sustained by feedback within the LEDO-field. This field is locally resolved in both frequency and spatial orientation, allowing rotational modes to be distinguished by their spectral and directional characteristics.
+The LEDO-field supports oscillatory modes characterized by frequency, orientation, and
+local coherence.
+Background fluctuations are an intrinsic component of the field and continuously perturb
+existing configurations.
+These fluctuations do not act as noise external to the system, but as an inseparable
+ingredient that enables exploration of nearby resonance-compatible states.
 
-\subsection{Postulate 2: Stable states are closed trajectories}
-A configuration is considered stable if the spatially integrated resonance potential supports a stationary closed trajectory. Such a self-sustaining rotational configuration is referred to as a \emph{Reson}. When a Reson decomposes into multiple coupled rotational degrees of freedom spanning independent spatial dimensions, each resulting single-axis rotational entity is termed a \emph{Roton}.
+Conventional fields and forces are interpreted as effective, scale-dependent projections
+of structured resonance behavior within the LEDO-field.
+No singular sources or point-like excitations are assumed.
 
-\subsection{Postulate 3: Entanglement arises from axial alignment}
-Two Rotons sharing an axis experience distance-independent phase locking. This results in directional or distance-stabilizing interaction terms, depending on the relative rotational handedness.
+\subsection{Rotons as Fundamental Resonant Units}
 
-\subsection{Postulate 4: Repulsion arises from depletion of resonance bandwidth}
-If the LEDO-field saturates locally, additional entities experience repulsive displacement. Repulsive behavior arises when local resonance capacity is saturated, such that additional rotational coupling increases energy-density gradients rather than coherence.
+A \emph{Roton} is defined as a stable, self-sustaining rotational configuration of energy
+within the LEDO-field.
+Kinematically, a Roton is characterized by a finite rotational radius, an intrinsic
+frequency, an orientation axis, and a finite resonance bandwidth.
+Its defining property is the existence of a closed rotational trajectory that remains
+coherent under background perturbations. Dynamic influences may induce a persistently precessing rotation axis in a Roton.
 
-\subsection{Postulate 5: Multiple Rotons within a finite interaction radius}
-Rotons possess a characteristic rotational interaction radius that defines the spatial extent of effective resonance coupling. At separations below this radius, multiple Rotons may be attracted toward and coexist within the same local energy minimum. Stable coexistence is achieved by adopting distinct axis orientations or phase relations, preventing excessive resonance overlap.
+Rotons possess a finite spatial extent and a corresponding \emph{rotonal inertia}, defined
+as resistance to changes in the orientation or geometry of the rotational trajectory.
+This inertia governs the temporal response of Rotons to changes in the surrounding
+resonance environment.
+Acceleration and reorientation therefore require finite time, even when resonance
+conditions change.
 
-\subsection{Postulate 6: Inertia is resistance to axis reorientation}
-Acceleration requires a reorientation of rotational trajectories and therefore exhibits a delayed inertial response. This effect is particularly pronounced for multidimensional poly-Roton structures whose internal coherence is maintained within a finite rotational interaction radius.
+Rotons act as localized sources of structured contributions to the resonance coupling potential of
+the LEDO-field.
+At the same time, they remain dynamically embedded within the same field and are subject
+to its global and local constraints.
 
-% --------------
+\subsection{Resons and Composite Rotational Structures}
 
-\section{Energy-Density Oscillation Framework (the LEDO-Field)}
+When multiple Rotons couple through stable resonance configurations, they form composite
+structures.
+A \emph{Reson} denotes a closed resonance arrangement that stabilizes specific relative
+orientations or separations between Rotons.
+Resons act as elementary binding modes within the model.
 
-We introduce the LEDO-field (Local Energy Density Oscillation field) as a continuous background framework embedded within spacetime, providing the medium in which rotational energy configurations, resonance gradients, and coherence structures arise. While spacetime defines locality and temporal ordering, the LEDO-field governs how energy-density oscillations organize, interact, and stabilize through resonance.
+More complex assemblies of Rotons linked by one or more Resons form higher-order composite
+units.
+Such composites retain a finite spatial extent and collective inertia and may behave as
+effective single entities at larger scales.
+Later sections refer to these grid structures as quon- or cage-like configurations, depending
+on their role in confinement and structural organization.
 
-The LEDO-field is not introduced as an additional force field, nor as a particle-carrying medium. Instead, it represents the oscillatory substrate that enables rotational energy configurations to couple through resonance. Conventional physical fields—such as electromagnetic, inertial, or gravitational descriptions—are interpreted as effective, scale-dependent projections of structured resonance behavior within the LEDO-field.
+\subsection{Resonance as a Global Consistency Condition}
 
-The field exhibits approximate scale invariance across a wide range of spatial and energetic scales. With the exception of specific modes associated with photons and electrons, which exhibit characteristic rotational speeds, the governing resonance behavior remains structurally similar from microscopic to cosmic scales.
+A central distinction of the RQM is the separation between \emph{resonance conditions} and
+\emph{physical dynamics}.
+Resonance alignment is not modeled as a propagating interaction or recursive adjustment
+process.
+Instead, it is treated as a global consistency condition of the coupled system.
 
-The LEDO-field is characterized by the following properties:
-\begin{enumerate}
-  \item It supports oscillatory energy-density modes with dispersion-like behavior, allowing localized rotational configurations to form stable closed trajectories.
-  \item Oscillatory modes can remain phase-coherent when resonance locking occurs, leading to persistent rotational structures.
-  \item The field contains intrinsic stochastic background fluctuations, which continuously perturb resonance configurations and enable exploration of nearby energy-density minima.
-\end{enumerate}
+In particular, \emph{entangled resonance alignment} between Rotons is represented as a
+coherence constraint that may be expressed bi-temporally through phase relationships
+defined over the system’s history.
+This representation does not imply signal transmission or dynamical influence outside
+causal limits.
+It specifies which configurations are resonance-compatible, not how systems move toward
+them.
 
-Resonance interactions are mediated through a resonance potential field, which can be interpreted as a distributed torque landscape. At each point in space, this field integrates contributions from surrounding rotational structures and background oscillations, resulting in a local torque that induces gyroscopic responses in embedded Rotons. The magnitude and direction of this response depend on the rotational inertia of the object and its coupling to the surrounding resonance environment.
+Physical motion, reorientation, and structural rearrangement of Rotons occur exclusively
+through inertia-limited dynamics within the LEDO-field.
+Finite response times arise from rotonal inertia and background fluctuations.
+Observable behavior therefore remains causal and time-extended, even though resonance
+conditions themselves are defined globally.
 
-Self-sustaining Rotons actively induce structured contributions into the resonance potential field, while background fluctuations form an inseparable component of the same LEDO-field. Entangled resonance alignment is treated as a global coherence condition, which may be expressed bi-temporally through shared past and future phase relationships, while any physical reconfiguration or propagation of stable structures remains limited by rotational inertia, leading to finite response times.
+\subsection{Scope and Closure of the Ontology}
 
-Within this framework, energy conservation is not imposed as an absolute axiom, but emerges conditionally. Energy remains effectively conserved for as long as a structure maintains resonance coherence. When a configuration destabilizes or separates into substructures, energy may redistribute into constituent rotational modes and partially dissipate into background fluctuations. Conversely, stochastic fluctuations of the LEDO-field can modify local energy-density minima, enabling transitions toward configurations of higher total energy content.
+The LEDO-field, Rotons, and Resons constitute the complete ontological basis of the Roton
+Quantum Model.
+No additional particles, forces, or quantization rules are introduced.
+All interaction regimes described in Sec.~\ref{sec:interaction_taxonomy} and all emergent
+structures discussed in later sections arise from geometric and dynamical combinations of
+these elements.
 
-Stability therefore arises dynamically: configurations persist when resonance coherence is maximized and energy-density gradients are minimized. The LEDO-field continuously facilitates both the decay of unstable structures and the long-term persistence of stable Roton and poly-Roton configurations.
+This ontology is intentionally finite and closed.
+Its purpose is not to replicate existing formalisms at the axiomatic level, but to provide
+a constructive foundation from which stability, interaction, and hierarchy emerge
+naturally.
 
-Here, LEDO refers to the \emph{Local Energy Density Oscillation} field, emphasizing that resonance interactions are mediated through locally resolved oscillatory energy-density structures.
+% --------
 
-% --------------
+\subsection*{Terminology and scope}
 
-\section{Rotons as Fundamental Resonant Units}
-We define a Roton as a stable, self-sustained rotating energy loop of continuously differentiable curvature. On the kinematic level it is characterized by
+Throughout this work, the following terms denote specific levels of rotational resonance
+organization within the LEDO-field:
+
 \begin{itemize}
-    \item a fundamental frequency $f$,
-    \item a characteristic rotational radius $R$,
-    \item an orientation (axis) vector $\hat{n}$,
-    \item a resonance bandwidth $\Delta f$,
-\end{itemize}
-such that the product $2\pi R f$ represents an effective energy-density circulation, analogous to an angular-momentum-like quantity distributed along the loop.
+  \item \emph{Roton}: a single-axis rotational degree of freedom representing a localized,
+  self-sustaining rotational resonance with finite spatial extent and rotational inertia.
 
-In the terminology introduced above, a Roton corresponds to a single one-dimensional rotational degree of freedom of a more general self-sustained rotational configuration (an \emph{Oszillon} or multi-mode Roton). A multi-dimensional oscillatory loop (oscillon) decomposes into several coupled Rotons, each associated with one effective rotation axis and its corresponding loop in configuration space. The set of Rotons belonging to a given Reson share a common center-of-rotation and an internally constrained phase structure.
+  \item \emph{Reson}: an effective resonance coupling, that is, a stable resonance-locked
+  configuration between two or more Rotons, defining a persistent coupling relation.
 
-Beyond $(f, R, \hat{n}, \Delta f)$ it is convenient to associate to each Roton:
-\begin{itemize}
-    \item a phase $\phi$, specifying its position along the loop,
-    \item a handedness (chirality) $\chi \in \{+1,-1\}$, distinguishing the sense of rotation around $\hat{n}$,
-    \item a relevant interaction radius $r_{\mathrm{rel}}$, setting the scale on which its contribution to local resonance potentials is effectively non-negligible,
-    \item an effective rotonal inertia tensor $\mathbf{I}_\mathrm{rot}$, encoding the resistance to changes in the rotation axis and loop geometry.
+\item \emph{Quon}: a compact assembly of multiple Rotons occupying a common center within
+their spatial extent, distinguished by the simultaneous realization of multiple resonance
+channels. A Quon acts as an effective higher-level rotational unit and may be interpreted as
+a rotating grid node whose structure is defined by the concurrent use of several resonance
+coupling pathways and is associated with a higher-span resonance coupling potential.
+
 \end{itemize}
 
-Rotons act as localized sources for a spectrally and directionally resolved resonance potential within the LEDO-field. At each spacetime point the LEDO-field can be viewed as carrying a distribution of resonance potentials
+For clarity, several additional terms used throughout this work are defined here in their
+specific modeling sense.
+
+A \emph{resonance coupling potential} characterizes the span and qualitative nature of a
+resonance coupling that a Roton offers to its environment. It represents a possible
+coupling pathway rather than an active interaction. Such a potential may become effective
+by forming a realized resonance channel, or it may remain unused without producing any
+dynamical effect.
+
+A \emph{resonance channel} denotes a specific realized pathway of resonance coupling drawn
+from the available resonance coupling configurations. It refers to a geometrically and
+phase-compatible alignment between rotational structures through which coherence and
+stability may be maintained. Resonance channels do not represent particle exchange, energy
+transport, or classical interaction channels.
+
+\emph{Energy-density saturation} denotes the local exhaustion of resonance capacity within a
+finite region of the LEDO-field. In this regime, additional rotational coupling increases
+local energy-density gradients and produces an effective repulsive response. Rotons of
+different span contribute to and interact with the local energy-density distribution, and
+saturation of this distribution limits further compatible coupling.
+
+These terms are introduced as constructive modeling concepts and are not intended to
+coincide directly with similarly named objects in other theoretical contexts.
+
+
+% ============================================================
+
+\section{Resonant Interaction Taxonomy}
+\label{sec:interaction_taxonomy}
+
+Within the Roton Quantum Model (RQM), interactions are not introduced as fundamental force laws.
+Instead, they arise as effective manifestations of resonance constraints and gradients within the
+LEDO-field.
+Each Roton contributes a spectrally and directionally resolved resonance potential, and the
+superposition of these contributions determines the torque and translational tendencies experienced
+by other Rotons.
+Which observable interaction emerges depends on the relative orientation, phase relations, and
+which degrees of freedom are dynamically free to respond.
+
+All interaction phenomena relevant to atomic, nuclear, and large-scale structure can be organized
+into four principal resonance regimes.
+These regimes form a complete and finite taxonomy; all subsequent structural emergence described
+in this work relies exclusively on combinations of these mechanisms.
+
+\subsection{Axial Entanglement: Distance-Independent Coupling}
+
+The strongest and most constrained interaction arises when two Rotons share a common rotation axis
+and are locked in an anti-parallel configuration.
+In this case, the axial resonance channel closes upon itself: resonance contributions cancel toward
+the exterior while remaining finite internally.
+The resulting configuration exhibits persistent binding that is effectively independent of spatial
+separation, as long as axial alignment is maintained.
+
+This regime defines \emph{entangled resonance alignment}.
+It is modeled as a global consistency condition of the coupled system rather than as a propagating
+interaction.
+No signal transmission or local mediation is implied.
+Observable motion of the Rotons remains inertia-limited and causal, but the coherence constraint
+itself does not depend on distance.
+
+Axially entangled Roton pairs behave as composite units with reduced external resonance signature.
+Chains or clusters of such entanglements require spatial overlap within the relevant rotational
+radii and form the basis of confined, nuclear-scale structures discussed in later sections.
+
+\subsection{Parallel-Axial Resonance and Distance Locking}
+
+If two Rotons share a common or nearly common axis without anti-parallel entanglement, their
+resonance potentials interfere along that axis.
+Constructive and destructive interference select discrete equilibrium separations at which the
+net resonance torque vanishes.
+These separations define preferred distances
 \[
-V_{\mathrm{res}}(\mathbf{x},\omega,\hat{k}),
+d \approx n\,d_0(R,f,\Delta\phi), \qquad n \in \mathbb{Z},
 \]
-which describes the propensity of a Roton with intrinsic parameters $(f,R,\hat{n},\Delta f,\chi)$ to couple into a given frequency $\omega$ and propagation direction $\hat{k}$. A Roton continuously injects into this resonance field according to its current state, and in turn experiences a torque obtained by integrating the local resonance potential along its trajectory. This torque acts on the orientation vector $\hat{n}$ and on the loop geometry, resulting in tilts, precession and slow deformations that are limited by the rotonal inertia $\mathbf{I}_\mathrm{rot}$.
+where $d_0$ depends on the rotational radius $R$, intrinsic frequency $f$, and relative phase
+$\Delta\phi$.
 
-On the level of the LEDO-field, the establishment of entangled resonance conditions is treated as a global, non-dynamical process. Changes in the configuration or orientation of a Roton are idealized as inducing an immediate update of the corresponding resonance constraints in the field, without invoking a propagating signal, recursive adjustment, or intrinsic temporal delay. In this sense, resonance is regarded as a coherence condition of the full system rather than as a locally transmitted interaction.
+This regime produces \emph{distance-locking interactions}.
+Unlike axial entanglement, the coupling strength depends on separation and alternates between
+attractive and repulsive domains.
+The interaction is effectively one-dimensional along the shared axis and supports linear chains,
+layered grids, and shell-like arrangements.
 
-The physical response of Rotons to these updated resonance constraints is, however, strictly dynamical. Reorientation, displacement, and deformation of rotational trajectories occur with finite response times determined by rotonal inertia and by stochastic background fluctuations of the local LEDO-field. Observable reaction and motion therefore remains causal and inertia-limited, even though the underlying resonance condition is defined globally.
+Depending on constraints, different physical responses dominate:
+free Rotons adjust both phase and position, position-locked Rotons adapt phase, and phase-locked
+Rotons respond primarily through displacement.
+All cases arise from the same underlying resonance structure.
 
-Within this separation, the LEDO-field encodes resonance as a global organizational principle, while measurable dynamics arise exclusively from the finite-speed relaxation of Rotons toward configurations compatible with that principle.
+\subsection{Isotropic Residual Resonance Attraction}
 
-Within their relevant radius $r_{\mathrm{rel}}$, multiple Rotons may occupy overlapping spatial regions and couple to similar resonance minima, provided that their axes and phases arrange such that detrimental coherence (which would destabilize the configuration) is avoided. This allows for locally dense, yet dynamically stable, multi-Roton structures, which in higher sections are associated with photon-like, electron-like, nucleon-like and even galactic-scale effective degrees of freedom.
+When rotational axes fluctuate rapidly or remain uncorrelated, directional resonance contributions
+average out.
+The remaining interaction is approximately isotropic and decays with distance.
+This regime represents the coarse-grained remnant of transient and non-coherent alignments.
 
+The resulting attraction is weak but long-ranged and does not rely on persistent axial structure.
+It provides a universal background coupling between Rotons and dominates only where more
+structured resonance channels are absent.
+In later sections, this contribution is associated with effective large-scale attractive behavior
+once higher-order resonance organization is averaged out.
 
-% --------------
+\subsection{Energy-Density Saturation and Short-Range Repulsion}
 
+At sufficiently small separations, the local resonance capacity of the LEDO-field becomes saturated.
+Additional Rotons introduced into such a region no longer find attractive resonance channels.
+Instead, they increase local energy-density gradients, producing an effective repulsive response.
 
- % THIS PART WAS ADDED FOR THE V2 Version 12.1.2025
- % INTENTION: Show what the model can cover
- 
- 
+This short-range repulsion enforces finite minimal distances between Rotons and prevents singular
+collapse.
+Its strength rises rapidly as separation decreases relative to the characteristic rotational
+radius.
+Because all Rotons possess finite spatial extent, no divergence occurs.
+This mechanism replaces hard-core exclusions or singular potentials by a smooth, physically
+interpretable saturation effect.
 
-% =========================================================
-% Chapter: Structural and Compositional Expressiveness of RQM
-% =========================================================
+\subsection{Summary of the Interaction Hierarchy}
 
-\section{Structural and Compositional Expressiveness of the Rotonal Quantum Model}
-\label{ch:rqm-expressiveness}
+The effective interaction between Rotons can be summarized schematically as
+\[
+F = F_{\mathrm{ent}} + F_{\parallel} + F_{\mathrm{iso}} + F_{\mathrm{rep}},
+\]
+where axial entanglement dominates when present, parallel-axial resonance governs distance locking,
+isotropic residual attraction provides a weak long-range background, and energy-density saturation
+enforces short-range exclusion.
 
-\subsection{Introduction}
-
-A central strength of the Rotonal Quantum Model (RQM) lies not merely in its explanatory reach, but in its constructive power. The model is capable of building up, decomposing, and recombining a wide variety of physical structures --- from simple oscillatory entities to complex, multi-scale compounds --- using a unified and intuitive framework.
-
-This capability emerges from a deliberate \emph{mathematical separation} between potential oscillatory capacities of a system and the effectively realized resonance couplings that manifest under given conditions. By disentangling what a system can host from what it currently expresses, the RQM enables a transparent, modular approach to system modeling. Complex interaction patterns can be decomposed into separable resonance channels, while still allowing for their re-integration into coherent higher-level structures.
-
-The following sections summarize the principal structural capabilities of the model, illustrating how a wide spectrum of physical phenomena can be represented as emergent configurations of resonant, rotatory systems.
-
-\subsection{Mathematical Separation and Modeling Framework}
-
-The RQM establishes a mathematical framework in which complex oscillatory systems can be systematically decomposed and recomposed.
-
-\begin{itemize}
-  \item Separation of \emph{potential oscillatory properties} of a system from the \emph{actively coupled resonance dependencies}
-  \item Decomposition of complex oscillatory systems into \emph{interleaved source aspects (nodes)} with clearly defined descriptive entities
-  \item Decoupling of intrinsic resonance properties from the \emph{channels through which resonance is exchanged}
-  \item Representation of resonance behavior as a set of \emph{distinguishable interaction paths}, allowing selective activation, suppression, or redirection
-\end{itemize}
-
-This separation provides both conceptual clarity and mathematical tractability, enabling scalable system modeling across multiple structural layers.
-
-\subsection{Basic Oscillatory Systems (Rotons)}
-
-The model naturally supports a spectrum of fundamental oscillatory entities:
-
-\begin{itemize}
-  \item One-dimensional stable rotational behavior (e.g.\ photons)
-  \item Near-planar circular oscillations of rotatory sub-systems (e.g.\ neutrino-like entities)
-  \item Stable, self-sustaining oscillatory systems (e.g.\ photons, electrons)
-\end{itemize}
-
-These systems serve as the fundamental building blocks for higher-order resonance structures.
-
-\subsection{Resonant Interactions Between Rotatory Systems}
-
-The RQM captures a variety of interaction modes between rotatory systems:
-
-\begin{itemize}
-  \item Interactions between \emph{co-axially aligned} rotatory systems, allowing attraction, repulsion, or entanglement (e.g.\ electron--proton interaction)
-  \item Anti-parallel, co-axial long-distance entanglement (e.g.\ entangled photons, entangled electrons)
-  \item Anti-parallel entangled attraction between co-axially aligned systems
-  \item Parallel co-axial \emph{distance-locking resonance interactions}, enabling stable separation constraints
-\end{itemize}
-
-These interactions arise naturally from phase relations and resonance compatibility rather than imposed force laws.
-
-\subsection{Forces and Coupling Phenomena}
-
-Within the RQM, what are conventionally called ``forces'' emerge as structured resonance effects:
-
-\begin{itemize}
-  \item \emph{Attractive residuals} originating from un-coupled or stochastically distributed resonance potentials (e.g.\ gravitation at atomic or larger scales)
-  \item Distinct interaction classes between different rotatory spans (e.g.\ electric charge, gravitational coupling, dark-matter-like effects)
-\end{itemize}
-
-This perspective unifies apparently disparate forces under a common resonance-based description.
-
-\subsection{Multi-Dimensional Oscillatory Systems}
-
-The model extends naturally to higher-dimensional oscillatory behavior:
-
-\begin{itemize}
-  \item Multi-dimensional oscillations around a shared center
-  \item Representation as \emph{$N$ resonance potentials anchored at a single location} (rotonal span) (e.g.\ electrons, muons, neutrinos)
-  \item Rotonal systems generating weak mutual attraction between similar higher-level systems (e.g.\ van der Waals forces between atoms and molecules)
-  \item Classical analogues such as spinning tops and gyroscopic precession
-\end{itemize}
-
-\subsection{Multi-Dimensional Spatial Resonance Structures}
-
-Beyond isolated systems, the RQM supports extended spatial structures:
-
-\begin{itemize}
-  \item Distance-locking resonances forming \emph{resonance channels} between nodes
-  \item Nodes hosting multiple resonance channels, forming \emph{$N$-dimensional grid structures}
-  \item Three-dimensional resonance grids in space
-  \item Resonant grid structures composed of multi-dimensional oscillatory systems (e.g.\ quarks, nuclei)
-  \item Oscillating multi-grid structures generating self-attraction and self-stability (e.g.\ strong nuclear force within atomic nuclei)
-  \item Resonance potentials extending to other grid structures (e.g.\ nucleon--nucleon attraction)
-  \item Stable self-sustaining entities across scales (e.g.\ photons, electrons, nuclei, atoms, galaxies)
-\end{itemize}
-
-\subsection{Center Lock-In and Hierarchical Binding}
-
-The model allows for hierarchical resonance anchoring:
-
-\begin{itemize}
-  \item Multi-resonant nodes hosting resonance potentials of different spans
-  \item Higher-level oscillatory systems providing \emph{free lower-level resonance potentials} (e.g.\ electron-span charge associated with a proton)
-  \item Energy-density repulsion of grid structures forming effective confinement ``cages'' (e.g.\ proton structure holding electron-span charge)
-\end{itemize}
-
-\subsection{Axis Alignment and Rotational Constraints}
-
-Resonant coupling also governs spatial orientation and inertia:
-
-\begin{itemize}
-  \item Entanglement preserving alignment of rotational axes (e.g.\ orbital electron--proton systems)
-  \item Tendency of resonant systems to align axes for energetic and structural optimization (e.g.\ galactic filaments)
-  \item Constraints on sub-axis reorientation governed by gyroscopic interactions (e.g.\ inertia and mass)
-  \item Tier-dependent constraints on coupling and propagation (e.g.\ photon (1-tier), neutrino ($\approx$1.5-tier), electron (3-tier))
-\end{itemize}
-
-\subsection{Confinement and Emergent Point-Like Behavior}
-
-The RQM provides a natural explanation for confinement phenomena:
-
-\begin{itemize}
-  \item Anti-parallel entangled spinning systems can cancel their external resonance signatures and appear as a single point-like entity (e.g.\ apparent point-like character of the electron)
-  \item Spatially extended multi-dimensional compounds can hide internal structure from external interaction (e.g.\ confined electron-like components within nuclei (quons, quark-like structures) contributing inertia and mass but no longer expressing electron-span charge)
-\end{itemize}
-
-\subsection{Resonance Induction}
-
-Resonant systems can actively induce structured resonance paths in other systems:
-
-\begin{itemize}
-  \item Induction of shared circular resonance paths (e.g.\ valence electrons forming circular entanglement paths between atoms; each electron supporting up to three resonance channels)
-  \item Induction of shared multi-dimensional resonance paths in neighboring components (e.g.\ valence electron resonance induced into an unpaired 2p-orbital of another atom)
-\end{itemize}
-
-\subsection{Optimization and Emergent Universality}
-
-Finally, the model predicts strong self-optimizing behavior:
-
-\begin{itemize}
-  \item Oscillatory systems naturally evolve toward energetically optimal configurations
-  \item Even nominally static grid structures tend to develop rotational oscillations to increase binding and energy density
-  \item Self-sustaining oscillatory systems converge toward nearly identical, indistinguishable configurations, representing \emph{universal optimal solutions} that are inherently stable and persistent
-\end{itemize}
-
-\subsection{Conclusion}
-
-Taken together, these capabilities demonstrate that the Rotonal Quantum Model is not merely descriptive, but generative. It provides a coherent framework for constructing physical entities and interactions across scales, using a small set of resonant principles applied recursively. Structures traditionally treated as fundamentally distinct --- particles, forces, fields, and large-scale formations --- emerge as different organizational regimes of the same underlying resonance logic.
-
-This structural expressiveness positions the RQM as a powerful candidate for unifying microscopic and macroscopic physics within a single, conceptually transparent model.
-
-
-% ------------------------------------
-
-
-
- % THIS PART WAS COMPLETELY REWORKED FOR THE V2 Version 12.1.2025
-
+No additional interaction types are required.
+Atomic, nuclear, molecular, and large-scale structures arise from different geometric and dynamical
+combinations of these four resonance regimes.
+All couplings remain finite, size-dependent, and free of singular behavior.
 
 
 
 % ============================================================
-\section{Resonant Interaction Framework and Structural Emergence}
-\label{sec:resonant_framework}
+\section{Hierarchical Structural Emergence}
+\label{sec:structural_emergence}
 
-This section consolidates the core dynamical content of the Roton Quantum Model (RQM).
-We first define the fundamental resonance-based interaction mechanisms.
-On this basis, we then describe how hierarchical physical structures --- from photons
-to nuclei, atoms, molecules and large-scale aggregates --- emerge without reintroducing
-additional postulates or force laws.
-Finally, we summarize the phenomenological and numerical indicators that validate the
-framework at a qualitative level.
+Having defined the foundational ontology (Sec.~\ref{sec:foundational_ontology}) and the
+complete interaction taxonomy (Sec.~\ref{sec:interaction_taxonomy}), we now describe how
+stable physical structures emerge as hierarchical resonance configurations.
+No additional mechanisms are introduced.
+All structures arise from geometric and dynamical combinations of Rotons coupled through
+the resonance regimes already defined.
 
-% ------------------------------------------------------------
-\subsection{Resonant interaction mechanisms}
+\subsection{Bootstrapping Photon-Like Structures}
 
-In the RQM, forces are not fundamental objects but effective manifestations of resonance
-coupling within the LEDO-field. Each Roton induces a spectrally and directionally resolved
-resonance potential. At the position of another Roton, the superposition of such potentials
-integrates into a net torque and, where permitted, a translational tendency. Which observable
-effect appears depends on which degrees of freedom are free to respond: position, phase,
-axis orientation, or combinations thereof.
+The simplest stable configuration in the Roton framework corresponds to a single-axis
+Roton whose rotational trajectory remains coherent under background fluctuations. Such a
+structure exhibits minimal rotonal inertia and propagates freely as long as its rotation
+axis remains stable. It may be interpreted as a soliton-like, self-sustaining pattern 
+embedded in the underlying LEDO-field.
 
-Four dominant interaction regimes can be distinguished.
+Photon-like behavior is identified with this class of single-axis resonance-closed
+configurations, characterized by coherence, low inertia, and unrestricted propagation
+along a stable axis.
 
-\paragraph{Co-axial anti-parallel entanglement.}
-If two Rotons share a common axis and are locked in an anti-parallel configuration, their
-axial resonance channel closes upon itself. In this limit, the internal coupling remains
-finite and effectively distance-independent, while the external resonance signature is
-strongly suppressed. Such pairs behave as tightly bound composite units with reduced
-external coupling.
+\subsection{Electron-Like Roton Structures}
 
-\paragraph{Parallel-axial distance locking.}
-If two Rotons share a common (or nearly common) axis without anti-parallel entanglement,
-their resonance potentials interfere along the axis and select discrete equilibrium
-separations,
-\[
-d \approx n\,d_0(R,f,\Delta\phi), \qquad n\in\mathbb{Z},
-\]
-where $d_0$ depends on rotational radius, frequency and relative phase. This interaction
-acts through quasi-one-dimensional resonance channels and supports chains and grids of
-distance-keeping structures.
+The first level of multi-rotational organization arises from interlocked rotations formed
+by entangled photon-like Rotons. Such configurations are initially near-planar, but already
+extend into an additional dimension through the rotation of the underlying constituent
+Rotons.
 
-\paragraph{Isotropic residual attraction.}
-When rotational axes fluctuate or remain uncorrelated, structured resonance contributions
-average out. The remaining interaction is approximately isotropic and decays as $1/d^2$.
-This contribution represents the coarse-grained remnant of transient, non-coherent
-alignments and dominates only at long range.
+Electron-like entities emerge as multi-axis composite structures in which several Rotons are
+mutually coupled while sharing a common center within their rotonal span. In the minimal
+stable case, three rotational degrees of freedom are locked into a self-sustaining
+configuration. This tri-axial structure exhibits substantially higher rotonal inertia,
+since changes in motion require coordinated reorientation of multiple rotation axes.
 
-\paragraph{Energy-density repulsion.}
-At sufficiently small separations, the LEDO-field saturates: resonance bandwidth is locally
-exhausted and further coupling increases energy-density gradients. This produces a short-range
-repulsive term that enforces finite minimal distances and prevents singular collapse.
+Charge-like interaction behavior arises from the structured resonance coupling
+availability associated by this configuration. The distinction between photon-like and
+electron-like entities is therefore not attributed to different fundamental constituents,
+but to different levels of internal resonance organization.
 
-These contributions combine into an effective interaction
-\[
-F(d,\Delta\theta)=F_{\mathrm{ent}}+F_{\parallel}+F_{\mathrm{iso}}+F_{\mathrm{rep}},
-\]
-whose observable form depends on geometry and constraints. All couplings remain finite,
-as all Rotons possess finite span and the LEDO-field has finite coherence capacity.
+\subsection{Quon Grid Structures}
 
-% ------------------------------------------------------------
-\subsection{Derived structural units: Resons and Quons}
+At higher resonance densities, electron-like Rotons may assemble into compact composite
+units that offer multiple potential resonance channels into different spatial directions.
+Such assemblies act as nodes within higher-level, grid-like resonance structures in space.
 
-For later use, two composite notions are introduced.
+When such a node itself undergoes coherent rotation, it constitutes a higher-level Roton,
+referred to as a \emph{Quon}. Quons may participate in further resonant organization,
+initially forming entangled Quon pairs and subsequently extended grid structures through
+shared resonance channels.
 
-A \emph{Reson} denotes a stable, discrete distance-locking or entanglement configuration of
-Rotons. Resons act as elementary bonding modes in the rotonal picture.
+\subsection{Nuclear-Scale Resonant Cages}
 
-A \emph{Quon} denotes a compact assembly of multiple Rotons whose centers lie within their
-relevant radii and are mutually stabilized by one or more Resons. Quons behave as effective
-higher-level units and form the scaffolding of nucleon-like and nuclear-scale structures.
+Certain compound Quon arrangements act as resonance cages, in which internal rotational
+degrees of freedom are stabilized and constrained by the surrounding resonance geometry.
+Proton-like configurations are interpreted as such cages, where an electron-like Roton
+structure is confined in orientation and phase. The resulting external resonance pattern
+constitutes an effective coupling channel for orbital electrons without exposing free
+electron-like behavior.
 
-% ------------------------------------------------------------
-\subsection{Hierarchical organization of physical objects}
+Neutron-like configurations correspond to alternative internal balances of the same
+resonance elements, differing primarily in how external coupling channels are expressed.
+No fundamentally distinct constituents are required.
 
-With the interaction taxonomy fixed, qualitatively different physical entities are interpreted
-as different hierarchical organizations of Rotons, Resons and Quons.
+Highly symmetric paired Quon assemblies form exceptionally stable cores. Proton-, neutron-,
+and alpha-particle-like configurations maximize compatible resonance channels while
+minimizing local energy-density saturation and repulsive gradients. Their robustness makes
+them natural building blocks for larger nuclear structures and provides a constructive
+explanation for why such configurations naturally arise in the formation of atomic structures.
 
-\paragraph{Photon-like objects.}
-A single-axis closed Roton trajectory with minimal internal structure corresponds to a
-photon-like entity. It exhibits low rotonal inertia and propagates freely as long as its
-axis remains stable.
 
-\paragraph{Electron-like objects.}
-An electron-like entity is modeled as a tri-axial compound of three coupled Rotons, locked
-into a self-sustaining configuration. This Tier-3 structure carries significantly higher
-inertia, since changes of motion require coordinated reorientation of multiple axes.
+\subsection{Atomic Orbitals as Resonance-Locked Trajectories}
 
-\paragraph{Nucleon-like cages and alpha-like cores.}
-In the nuclear regime, Quons act as confinement and resonance-organizing structures.
-A proton-like object corresponds to a Quon configuration that cages an internal
-electron-like Roton in a constrained orientation, producing an external resonance pattern
-that functions as an effective positive coupling channel for orbital electrons.
-Neutron-like configurations differ in internal balance and external coupling.
+Atomic structure emerges when electron-like Rotons couple to nuclear-scale resonance cages.
+Discrete orbital radii arise as resonance-compatible trajectories at which the integrated
+torque on the electron’s rotational axes vanishes on average.
+These radii act as attractors of the relaxation dynamics under background fluctuations and
+correspond to shell structure.
 
-Higher aggregates arise as resonance-stable Quon compounds. In particular, highly symmetric
-configurations form exceptionally robust alpha-like cores. These units naturally
-serve as building blocks for larger nuclei, providing persistent orientations and structured
-external resonance channels.
+Within a given shell, multiple electrons coexist by occupying distinct rotational planes
+and phase relations.
+When two electrons share a compatible radius, they may form paired configurations by
+arranging their internal phases such that external resonance signatures are partially
+suppressed while internal coherence is enhanced.
 
-Repeated distance-locking between rotating Quons yields favored nuclear clusterings.
-Highly symmetric packings are structurally advantageous because they maximize compatible
-resonance channels while minimizing local saturation.
+Beyond planar motion, redistribution of rotational activity across axes allows for closed
+three-dimensional trajectories.
+Shell differentiation therefore reflects differences in resonance geometry rather than
+imposed angular-momentum quantum numbers.
 
-% ------------------------------------------------------------
-\subsection{Atomic orbitals as resonance-locked trajectories}
+\subsection{Resonance Induction and Molecular Bonding}
 
-Atomic orbitals are not postulated as eigenstates of an imposed potential. They emerge as
-resonance-locked trajectories of electron-like Tier-3 objects in the structured resonance
-environment generated by the nuclear Quon scaffold.
+Electron-like Rotons can simultaneously participate in multiple resonance channels,
+corresponding to their internal rotational degrees of freedom.
+In molecular environments, valence electrons establish shared resonance paths that couple
+multiple nuclear cores into a single coherent structure.
 
-For a given nuclear configuration, discrete radii exist at which the integrated resonance
-torque on the electron’s axes vanishes on average and closed, phase-coherent trajectories
-persist under background fluctuations. These radii act as attractors of the relaxation
-dynamics and correspond to shell structure.
+This process is referred to as \emph{resonance induction}.
+Existing stable resonance configurations attract additional compatible degrees of freedom
+and reorganize them into larger, energetically favorable arrangements.
+Bond lengths and angles are determined by the requirement that shared electron trajectories
+remain phase-coherent and torque-balanced with respect to all participating centers, while
+avoiding local resonance saturation.
 
-Within a shell, electrons occupy distinct rotational planes and phase relations. When two
-electrons share a compatible radius, they can form rotonal pairs by arranging phases and
-planes such that external resonance signatures are partially cancelled and internal
-coherence is increased.
+Chemical regularities thus emerge as geometric constraints of multi-center resonance
+closure rather than as consequences of predefined force laws.
 
-Beyond planar motion, electrons can redistribute rotational activity across axes.
-Precession of the dominant rotation plane enables closed three-dimensional trajectories.
-In this picture, p-like shells correspond to multi-dimensional resonance closure rather
-than to imposed angular-momentum quantum numbers.
+\subsection{Large-Scale Structures and Effective Forces}
 
-% ------------------------------------------------------------
-\subsection{Resonance induction and molecular bonding}
+At still larger scales, the same interaction taxonomy applies in coarse-grained form.
+When detailed axial alignments and distance-locking structures average out, isotropic
+residual resonance attraction dominates.
+This regime yields effective long-range attractive behavior between composite structures.
 
-Electron-like Rotons can host multiple simultaneous resonance channels, corresponding to
-their intrinsic rotational axes. In atomic and molecular environments, these channels are
-used to couple to nuclear scaffolds, to other orbital electrons, and to electrons of
-neighboring atoms.
+Rotational coherence on galactic scales contributes additional stabilization through
+collective resonance effects, favoring filamentary and disk-like arrangements.
+From this perspective, part of the dynamics commonly attributed to dark components may be
+interpreted as emergent behavior of large-scale rotational resonance organization within
+the LEDO-field, without requiring new particulate matter.
 
-Molecular bonding arises when valence electrons participate in shared resonance paths
-spanning multiple nuclei while remaining compatible with each local environment.
-Already-stable resonance patterns can attract additional degrees of freedom into a larger,
-more symmetric configuration. This mechanism is referred to as \emph{resonance induction}.
+\subsection{Hierarchy and Closure}
 
-Stable bond lengths and angles follow from the requirement that shared electron trajectories
-remain phase-coherent and torque-balanced with respect to all participating cores, while
-avoiding local saturation. Chemical regularities thus emerge as geometric constraints of
-multi-center resonance closure.
+Across all scales, from photon-like Rotons to galactic structures, stability arises from
+the same four resonance regimes defined in Sec.~\ref{sec:interaction_taxonomy}.
+Higher-level entities differ only in internal organization, collective inertia, and the
+degree to which resonance structure is exposed or internally confined.
 
-% ------------------------------------------------------------
-\subsection{Validated phenomenology and numerical indicators}
+No new interaction principles appear at higher complexity.
+Hierarchy reflects resonance geometry, not a change of physical law.
 
-Although the present formulation is primarily conceptual, numerical proof-of-principle
-simulations and analytical considerations consistently reproduce a range of qualitative
-phenomena:
 
-\begin{itemize}
-  \item emergence of discrete, harmonic distance locking rather than continuous separations,
-  \item formation of shell-like and grid-like Roton arrangements,
-  \item stability of co-axial entanglement over extended separations,
-  \item absence of singular collapse due to short-range energy-density repulsion,
-  \item exceptional robustness of alpha-like cores,
-  \item distance-keeping electron chains supporting conduction-like behavior,
-  \item filamentary large-scale structures from rotating mass distributions.
-\end{itemize}
-
-To characterize these effects quantitatively in future work, several numerical indicators
-are natural within the framework: distance spectra of Roton pairs, persistence times of
-clusters, axis-alignment order parameters, local energy-density statistics, and inertia-related
-response times. Together, these provide a bridge between roton-level dynamics and observable
-atomic, nuclear and astrophysical phenomena.
 
 % ============================================================
+\section{Numerical Indicators and Model Validation}
+\label{sec:validation}
+
+The present formulation of the Roton Quantum Model is primarily conceptual, yet it admits
+clear criteria for internal validation and falsification through numerical experimentation.
+Because all interaction mechanisms are geometric and resonance-based, the model lends itself
+naturally to direct simulation of Roton ensembles under controlled initial conditions.
+
+Existing proof-of-principle simulations consistently exhibit the following qualitative
+features:
+
+\begin{itemize}
+  \item spontaneous emergence of discrete equilibrium distances rather than continuous
+        separations,
+  \item formation of stable chains, grids, and shell-like arrangements from initially
+        unstructured configurations,
+  \item persistence of axial entanglement under spatial separation,
+  \item absence of singular collapse due to short-range energy-density saturation,
+  \item exceptional robustness of symmetric quon-compounds creating alpha-particle-like cores,
+  \item inertia-limited relaxation dynamics following changes in resonance constraints.
+\end{itemize}
+
+These behaviors arise without externally imposed quantization rules, predefined potentials,
+or hard exclusion constraints.
+They follow directly from the finite span of Rotons and the resonance regimes defined in
+Sec.~\ref{sec:interaction_taxonomy}.
+
+For quantitative characterization, several numerical indicators are particularly relevant:
+distance spectra of Roton pairs, lifetime distributions of composite structures, axis-alignment
+order parameters, local energy-density statistics, and response times to controlled perturbations.
+Together, these observables provide a bridge between roton-level dynamics and experimentally
+accessible atomic, nuclear, or mesoscopic phenomena.
+
+Long-duration simulations starting from quasi-homogeneous conditions represent a critical
+next step.
+Of particular interest is whether electron-like, nucleon-like, and atomic-scale structures
+emerge as attractors of the dynamics without scale-specific tuning.
 
 
-% END OF REWORK  -   THIS PART WAS COMPLETELY REWORKED FOR THE VERSION 2 OF THIS FILE
 
-
-
-
-
-
-% --------------
-
+% ============================================================
 
 \section{Open Research Directions}
 
-The present formulation of the Roton Quantum Model (RQM) is intentionally minimalistic at the axiomatic level but rich in emergent structure. 
-Several concrete research directions arise naturally from the current state of development, spanning analytical work, numerical simulations, phenomenology, and possible experimental access to rotonal sub-structure.
+The present formulation of the Roton Quantum Model is intentionally compact at the axiomatic
+level, yet structurally rich in its emergent consequences. Several concrete research
+directions arise naturally from the framework and delineate clear paths toward quantitative
+testing, refinement, and possible falsification.
 
-\begin{enumerate}
-    \item \textbf{Analytical formulation of resonance tensors and scaling laws.}\\
-    A first major task is the derivation of closed analytical expressions for the resonance-induced interaction tensors in the LEDO-field. 
-    This includes (i) explicit functional forms for axial, parallel-axial and isotropic components of the resonance potentials, (ii) their dependence on frequency, radius and phase of underlying Rotons, and (iii) scaling relations connecting microscopic parameters (Roton radius, frequency, bandwidth) to effective macroscopic couplings (e.g.\ atomic-scale binding energies or galactic-scale rotational forces). 
-    A consistent tensorial formulation would enable direct comparison with existing field-theoretic formalisms and provide a route to continuum-limit descriptions.
+\subsection*{Analytical formulation of resonance coupling}
 
-    \item \textbf{Long-time simulations of spontaneous structure formation.}\\
-    Current numerical experiments mainly confirm that the basic rotatorial rules do not lead to singularities and already yield distance-locking and cluster formation.
-    A crucial next step is to perform large-scale, long-time simulations starting from quasi-homogeneous initial conditions of Rotons and background fluctuations, and to study under which conditions the system spontaneously nucleates:
-    (i) electron-like multi-axis entities, (ii) nucleon-like clusters, (iii) alpha-particle-like composite structures, and eventually (iv) stable atomic and molecular aggregates.
-    Of particular interest is whether an "atom-forming cascade" can emerge as an attractor of the dynamics without imposing any scale-specific tuning.
+A primary task is the derivation of closed analytical expressions for resonance-induced
+interaction terms within the LEDO-field. This includes explicit functional forms for
+co-axial, parallel-axial, isotropic, and saturation-driven contributions, as well as their
+dependence on rotational radius, frequency, bandwidth, and phase relations. A tensorial
+representation of resonance coupling would enable direct comparison with established
+field-theoretic descriptions in appropriate limits.
 
-    \item \textbf{Mapping isotope boundaries as resonance stability edges.}\\
-    The RQM naturally suggests that isotope stability is governed by the existence of robust resonance networks between nucleonic Rotons and orbital electrons.
-    Systematic exploration of multi-Roton configurations with varying proton/electron counts and rotational orientations could identify regions in parameter space where small perturbations either decay back to a stable configuration or trigger structural breakdown.
-    These "stability edges" may be mapped against known nuclear charts, providing a quantitative test of the model and potentially yielding explanations for observed magic numbers, alpha clustering and the scarcity of stable high-$Z$ isotopes.
+\subsection*{Scaling relations across physical regimes}
 
-    \item \textbf{Relating LEDO background fluctuations to cosmological observables.}\\
-    The model posits that background fluctuations in the LEDO-field at atomic scales set preferred orbital radii and energy-density minima.
-    One open direction is to connect the spectral and spatial properties of these fluctuations to cosmological signatures, such as the cosmic microwave background (CMB) and large-scale filamentary structures.
-    This could involve reconstructing an effective fluctuation spectrum consistent with both atomic-scale constraints and astrophysical observations, thereby testing whether a single underlying oscillation framework can coherently bridge microscopic and cosmological scales.
+The model predicts that atomic, nuclear, and large-scale structures arise from the same
+interaction taxonomy, differentiated only by scale and rotational inertia. Systematic
+derivation of scaling relations connecting microscopic Roton parameters to effective
+macroscopic observables (orbital radii, binding energies, relaxation times) is therefore
+essential for quantitative validation.
 
-    \item \textbf{Higher-order multi-Roton aggregates and novel material phases.}\\
-    Beyond simple tri-axial (Tier-3) electron-like structures, the RQM allows for higher-order multi-Roton compounds (e.g.\ more complex Quan aggregations of Quons with 4 or 5 resonance potentials) within a shared relevant rotational radius.
-    Systematic classification of the topology and stability of such multi-Roton configurations may reveal new classes of quasi-particles or collective excitations, with potential implications for condensed-matter systems.
-    For instance, certain higher-order Quons might correspond to particularly dense or topologically protected arrangements, suggesting analogues of new phases of matter characterized by rotonal connectivity rather than by conventional lattice order.
+\subsection*{Long-duration numerical simulations}
 
-    \item \textbf{Multi-scale inertia coupling and rotonal spectroscopy.}\\
-    A further avenue is the exploration of how changes in higher-level rotational states (e.g.\ atomic or molecular reorientation under external fields) back-react on lower-level rotonal sub-structures via inertia and precession.
-    If external perturbations (intense electromagnetic fields, ultrafast pulses, strong gradients) can induce characteristic re-alignment dynamics, then subtle shifts in response times, resonance frequencies or decoherence patterns might serve as indirect probes of underlying Roton and Reson configurations.
-    This suggests the possibility of a "rotonal spectroscopy", in which measured macroscopic relaxation or dephasing signatures are interpreted as integral responses of nested rotational degrees of freedom.
+Existing simulations demonstrate local stability, distance locking, and shell formation.
+A key next step is long-duration, large-ensemble simulations starting from quasi-homogeneous
+initial conditions, designed to test whether electron-like, nucleon-like, and atomic
+structures emerge spontaneously without scale-specific tuning. Particular emphasis should
+be placed on robustness under perturbation and sensitivity to background fluctuations.
 
-    \item \textbf{Controlled manipulation of entanglement patterns.}\\
-    The model attributes entanglement to persistent axial alignment and shared bitemporal coherence between Rotons.
-    A systematic study of how different boundary conditions (e.g.\ confinement geometries, external rotation fields, structured backgrounds) influence the creation, persistence and decay of these entanglement patterns could lead to new insights into controllable long-range correlations.
-    On the quantum-technology side, this may inspire proposals for engineered environments where entanglement is stabilized or enhanced by tailored rotonal matching rather than by purely Hamiltonian engineering in standard Hilbert-space formulations. A multi-entangled higher-level compound might provide acceleration based methods of interacting with entangled sub-level compounds. 
+\subsection*{Resonance stability and isotope structure}
 
-    \item \textbf{Bridging to existing quantum and field-theoretic formalisms.}\\
-    Finally, it is essential to connect the geometric, resonance-based language of the RQM to established mathematical structures in quantum mechanics and quantum field theory.
-    This includes: (i) identifying effective Hilbert-space representations of stable Roton configurations, (ii) deriving approximate Hamiltonians that reproduce RQM dynamics in suitable limits, and (iii) comparing RQM-induced effective potentials with known interaction terms (Coulomb, Yukawa-like, or spin-orbit couplings).
-    Such a bridge would not only facilitate comparison with existing data but could also highlight which phenomena are genuinely novel predictions of the rotonal framework and which merely re-interpret known results in a more constructive geometric manner.
-\end{enumerate}
+Within the RQM, nuclear stability corresponds to the existence of closed resonance networks
+among compact Roton assemblies. Systematic exploration of these configurations may clarify
+why certain isotope combinations are favored while others are unstable, and whether known
+patterns (such as alpha clustering and magic numbers) correspond to resonance-complete
+geometries.
+
+\subsection*{Orbital dynamics and molecular structure}
+
+Further work is required to map resonance-locked electron trajectories onto observed atomic
+and molecular geometries. This includes identifying how multi-axis precession, pairing, and
+resonance induction constrain bond lengths, angles, and coordination numbers across chemical
+systems, without invoking externally imposed orbital bases.
+
+\subsection*{Connections to established formalisms}
+
+Finally, it is important to establish systematic connections between the resonance-based
+language of the RQM and conventional quantum and field-theoretic formalisms. This includes
+deriving effective Hamiltonians, identifying approximate Hilbert-space representations of
+stable Roton configurations, and clarifying which aspects of standard theory emerge as
+coarse-grained limits of the underlying resonance dynamics.
+
+Together, these directions define a focused research program aimed at transforming the
+Roton Quantum Model from a coherent conceptual framework into a quantitatively testable
+theory.
 
 
-% --------------
-
-
+% ============================================================
 \section{Conclusions}
 
-This work has introduced the Roton Quantum Model as a resonance-based, deterministic framework for the emergence of quantum phenomena, matter, interactions, and large-scale structure. Starting from two minimal conceptual premises—rotational self-interaction of energy and the primacy of quantum entanglement—the model demonstrates how a wide range of physical phenomena arise naturally as stable, energy-optimized resonance configurations.
+This work has introduced the Roton Quantum Model as a resonance-based, deterministic framework
+for the emergence of matter, interaction, and hierarchy across physical scales.
+Rather than postulating particles, forces, or quantization rules a priori, the model derives
+stability and structure from the geometry of rotational resonance within a continuous
+energy-density oscillation field.
 
-Rather than postulating particles, forces, or quantization rules a priori, the presented approach shows that many established physical structures emerge as necessary consequences of rotational resonance, axial alignment, and energy-density optimization. In this sense, the model shifts the explanatory focus from phenomenological descriptions of \emph{how} interactions occur to constructive mechanisms addressing \emph{why} stable structures exist at all.
+By separating global resonance constraints from inertia-limited local dynamics, the framework
+provides a constructive interpretation of phenomena commonly treated as axiomatic in
+conventional theories.
+Photons, electrons, nuclei, atoms, molecules, and large-scale structures are understood as
+different organizational levels of the same underlying Roton ontology, distinguished by
+internal resonance geometry and collective inertia rather than by fundamentally distinct
+constituents.
 
-The foundational thought experiments guiding the development of the model can be summarized as follows:
-\begin{enumerate}
-  \item What dynamical structures arise if energy undergoes rotation while remaining resonantly coupled to its own past and future states? Under this assumption, photons appear naturally as self-sustained rotational entities without intrinsic inertia.
-  \item If quantum entanglement consistently manifests at microscopic scales, it should be regarded not as an exceptional phenomenon, but as the default mode of interaction at those scales. The model therefore adopts entanglement as a foundational organizing principle rather than a derived or measurement-induced effect.
-\end{enumerate}
+All interaction behavior is shown to arise from a finite taxonomy of resonance regimes:
+axial entanglement, parallel-axial distance locking, isotropic residual attraction, and
+energy-density saturation.
+No singularities, point-like entities, or externally imposed potentials are required.
+Hierarchy reflects resonance organization, not a change of physical law.
 
-From these premises, a broad set of physical phenomena emerges without additional assumptions:
-\begin{enumerate}
-  \item A coherent structural and dynamical interpretation of photons and light as single-axis rotational entities.
-  \item A constructive model of electrons as multi-axis rotational compounds, naturally accounting for inertia, charge behavior, and interaction limits.
-  \item The spontaneous formation of stable spatial structures—including nucleons, atomic nuclei, atoms, and molecules—as resonance-optimized configurations of coupled Rotons.
-  \item An alternative formulation of electromagnetic interactions arising from directional resonance alignment rather than abstract field mediation.
-  \item A natural interpretation of electron–positron duality based on rotational orientation, phase locking, and gyroscopic inertia.
-  \item A reinterpretation of the proton as a stabilizing confinement structure for an electron-like entity, with positive charge emerging from constrained spatial and phase degrees of freedom.
-  \item The emergence of the alpha particle as a fundamental structural unit required for stable higher-order atomic configurations, enabling paired orbital electron states.
-  \item Intuitive explanations for large-scale attractive effects commonly attributed to dark matter, arising instead from rotational resonance dynamics at galactic scales and explaining the long-term stability of cosmic filaments.
-  \item A fully deterministic account of quantum entanglement phenomena that does not rely on external observers, wavefunction collapse postulates, or inherently undefined superposed states.
-\end{enumerate}
+The Roton Quantum Model is not presented as a closed or final theory.
+Its value lies in offering a coherent, testable alternative perspective that emphasizes
+constructive mechanisms over descriptive formalisms.
+Future work must establish quantitative scaling relations, perform large-scale simulations
+of spontaneous structure formation, and identify clear experimental signatures capable of
+confirming or falsifying the framework.
 
-Beyond reproducing known qualitative features of physical systems, the Roton Quantum Model (RQM) offers a unifying conceptual framework in which matter, forces, inertia, time dilation, and large-scale structure arise from the same underlying resonance principles. Importantly, the model remains free of singularities, point-like entities, and externally imposed quantization rules, replacing them with finite, geometrically interpretable rotational structures.
+In this sense, the model proposes a shift in viewpoint: from a universe assembled from
+elementary objects governed by predefined interactions, to one in which structure, inertia,
+and interaction emerge naturally from resonance, rotation, and coherence as fundamental
+organizing principles.
 
-At the same time, this work represents an initial formulation rather than a closed theory. Open challenges include the derivation of fully quantitative scaling relations, systematic comparison with high-precision experimental data, long-duration simulations demonstrating spontaneous structure formation from homogeneous initial conditions, and the identification of clear experimental predictions capable of falsifying the model.
-
-In summary, the Roton Quantum Model proposes a shift in perspective: from a universe constructed of particles embedded in predefined fields, to one in which structure, interaction, and stability emerge from resonance, rotation, and entanglement as fundamental organizing principles. Whether this framework can ultimately complement or revise existing physical theories remains an open question—but it offers a coherent, intuitive, and testable pathway toward a deeper understanding of physical reality.
-
-% -----------
+% ============================================================
 
 \section*{Acknowledgements}
 
-The author gratefully acknowledges many stimulating interactions with AI-based tools provided by OpenAI, which helped to refine the conceptual structure of the Roton Quantum Model and to clarify its connections to established physical phenomenology. Any remaining inconsistencies or unresolved questions are entirely the responsibility of the author. 
-
-A heartfelt thank you is also owed to all the wonderful people who supported this work with their trust and patience, and who accepted the many hours during which the author was not available for everyday activities such as household duties, or shared leisure time.
+The author gratefully acknowledges many stimulating interactions with AI-based tools, which helped to refine the descriptive structure of the Roton Quantum Model and to clarify its connections to established physical phenomenology. 
+A heartfelt thank you is owed to wonderful people who supported this work with their trust and patience, accepting the many hours during which the author was not available for everyday activities.
 
 \subsection*{Author Information}
 \textbf{Author:} Olav Le Doigt \\
 \textbf{Profession:} Dipl. El. Ing. ETH\\
+
 \textbf{ORCID:} [0009-0002-3356-9634] \\
 \textbf{Contact:} \texttt{[olav@ledoigt.ch]} \\
 \textbf{Web:} \texttt{ledoigt.ch} \\[0.5em]
@@ -669,5 +737,3 @@ for experimental or numerical tests, which may help to clarify the model’s sco
 and possible connections to established frameworks.
 
 \end{document}
-
-
