@@ -1,0 +1,58 @@
+
+RQT
+
+│
+
+├─ Fundamental Concepts
+
+│  ├─ Resonance
+
+│  ├─ Stability
+
+│  ├─ Information
+
+│  ├─ Inertia
+
+│  └─ Resonance Accommodation
+
+│
+
+├─ Structural Concepts
+
+│  ├─ Resonance Channel
+
+│  ├─ Resonance Closure
+
+│  ├─ Resonance Enclosure
+
+│  ├─ Residual Resonance
+
+│  └─ Resonance Network
+
+│
+
+├─ RQM
+
+│  ├─ Roton
+
+│  ├─ Sonon
+
+│  ├─ Photon
+
+│  ├─ Electron
+
+│  ├─ Proton
+
+│  └─ Atom
+
+│
+
+└─ Mathematical Representations
+
+   ├─ Field Descriptions
+
+   ├─ Differential Equations
+
+   ├─ Energy Density Models
+
+   └─ Numerical Simulations
