@@ -1,0 +1,88 @@
+ENTRY POINT:
+- All physical particles and photons are resonances
+- Apparent physical forces are the result of resonance alignment
+- Resonance identities consist of internal and external resonance abilities
+- To remain stable und distinguishable, resonance identities have to decouple from the surrounding resonance space
+- The whole observable universe is an increasing hierarchy of closed and open resonances
+- It is built upon single identical base resonance units
+- Every identity has found a specific optimized way to persist over time
+
+Please join into a revelating dialog and creation process where the whole universe emerges from a few simple patterns.
+
+RQM Prompts
+
+(P2) Yes, that all makes sense. One crucial point (PART 2) when we go into “experimental observation” … RQM can clearly “predict” valid “main-levels” of orbitals (e.g. H-Atom, He-Atom). Now the difficult point comes with bigger atoms. Why do not all orbital electrons live on the first orbital? I don’t mean excitation or jumping between layers, this can happen naturaly. I mean an Oxygen-Atom with 4 electron pairs in lowest orbital energy state. They seam to occupy certain orbitals. Only 1 innermost. The next ones have to wait one more cycle to close (on a higher orbital). why? Are the electrons in their way? Do they try to increase distance? Do they avoid being near? Well they are clearly not in sync (in place), they have no shared traj. except the paired ones. And as soon as we inter higher levels, 4 of them can enter a shared (spin 1/2) trajectory. The later is modelled in strict RQM as two separat planar parallel circles. Then RQM adds further such circles in multiple directions. Some trajectories might aim to even conceil other residually sideways  Electron-channels. (molecular bindings). 
+
+(3) Orbital Models
+The Basis for “thinking” how electron orbitals works is to get rid of thingking in forces. There is no general repulsion between electrons, it is not general attraction that draws an electron towards the atom center. The question is not why can electrons not orbit all in the same orbital. The question is, why is it more optimal to rotate in different orbitals. And the answer is a more optimal increase/distribution of resonance capacity (ability to accomodate external disturbances). If electrons can “rotate” in parallel planes then this is more optimal. If they share common periods that is more optimal. If they can tune into different common sub-frequencies then this is more optimal. So let’s the first pair have a Period of t1. Then a second pair can remain in the same plane put with period 2*t1. Now the 3rd pair can join in with both in 2 dimensions, having a x-period of 2*t1
+
+Visualizations: Orbital-view, Präsession-View, Rotation-View
+
+(4) Molecules:
+
+H2: P-e|e-P. The electrons combine into an electron-pair und close channels to both Proton cores. So every Electron has 3 closed e-span channels. (RQT) in strict RQM we have simply two plane circular H-atoms having a o-span (orbital span) Rotonal distance locking channel. And the electrons building o channel in oppisite phase-state.
+He: Two electrons each build a closed channel, together and axially with the linearly aligned two core protons (alpha e-span nodes). Giving optimal resonance matching. Only if two He-Atoms come very close - they might build some purely residual faint coupling along their rotation-planes. 
+
+Electron pairing
+So there is a destinction of shared Electron paths to simple rotonal phase-alignment. And the magic thing again is, redusing resonance exposure. Unpaired Electrons can create a closed channel and tune into multiple resonances. Restructuring of the core into more Alpha-Like nuclei, will allow more optimal resonance capacity and enclosure. This might become available whan double-shared electrons enclose the core. An alpha like restructuring might appear even if the core is not „looking“ like a double positive charge - it is enclosed property. Only exposure or molecule separation would reveal it, but then … maybe not … it will be of relevance in p-orbitals.
+
+Let‘s have a look at H2O.
+
+An O8
+
+No, O-8 is perfect as the most stable isotope. It has a 4-Alpha core. Giving it the ability for 4 paired orbital electrons Now this gives one planar pair (s1) then a next planar pair (s2) on the next double period. Now the pairs start to sync into both of these reonances. This results in a Period p in one axis and a period p2 in a second axis. Such a trajectory can take in 2 pairs of electrons. Hmm, how was the standart s,p,… shell structuring? Ah now I see. RQM has 1 pair in s1 then enters one px-shell with 2 p …
+
+
+1s - 2
+2s - 2
+2p - 6
+3s - 2
+3p - 6
+4s - 2
+3d - 10
+4p - 6
+5s - 2
+4d,5p,6s 
+
+(4) Electron-Shell structure
+RQM (Olavian Atom-Model) has a slightly different view on the electron orbitals. First focussing on the even number of electrons where we look at electron pairs. These match/close 1 to 1 to/with a specific Alpha-Particle in the core. The Orbitals grow with the intention to produce optimal resonance structures - and not primarily filling up shells. So the standard Be-Atom with std 1s2s constellation might come with a p and 2*p period orbital. But might also come up with a parallel 2 electron-pair constellation in 1s distance.
+
+Anyway this is the reason for the structure:
+- First 2 electrons: Electron-Pair with period p
+- Second 2 electrons: Electron-pair with period 2p
+- Then we enter the range of electrons that share into both these resonance periods in different spatial directions. With 3 dimensions we have 3 electron-pairs. So one electron-pair e.g. has 2p period in x and p period in y and z.
+- With this we already reached Neon with 5 electron pairs.
+- After opening the 3s orbital the possibilities of combinations increases massivaly.  3 to 2, 2 to 1, very intersting the 3 to 1 orbitals. And most interesting the 3,2,1 combined 3D combination with 3 different periods in all directions. (when which combination is entered and fist used depends on natural optimizations and resonance-capacity and resonance-enclosures. 
+- Potentially the rotation-frequency of the outer electrons remains and the lower inner layers adjust to higher frequencies. So the optimal p depends on the atom and is not necessarily identical between atoms. 
+- Most likely the main valence shell will adjust to a general period providing optimal molecular binding potential. 
+- (Edel-gase might simply hit a period which is not common to other atoms. Preventing further molecular bindings - except to itself. Discarded for now.)
+
+What do we get with these trajectories?
+- Orbital-Model (probability cloud): A handle where the electron probability is seamingly 0 in the middle (which is not the case, we’ll see). This model is axially smeared.
+- Resonance-Model: A trajectory of an electron which happens - when viewed from the side - goes through the center effectively we still nearly have a curve on a sphere with 2 different elongations.
+- Rotonal-Model: Separation in 2 small x-axis Rotons and two big y-axis Rotons
+
+These Trajectories become interesing in molecular bindings. If not all 3 axial directions are fully used, the electron orbital can still fill-in electrons into the resonance-structure. (some-times i called them in-suction ;-)) now they are more or less resons only existing in shared resonances. Now instead of the s-orbitals. What happens with binding?
+
+Binding of p-orbitals: 
+- Single valence electrons of other atoms are “weaved” into the current resonance trajectories of p-orbital atoms. As this offers a better resonance compound.
+- H2O: O-8 has 2 spare electron-places that can weave in. H provides one. So two H-Electrons are drawn into the p2 trajectory (remaining pairs and dimension). These electrons can still remain bound to “their” H-atom. This is a requirment to hold the remaining H-nuclei in place. 
+- They most likely though, will couple into the existing circular s1 or s2 orbitals, as they are stationary and with a constant distance Now these orbital electrons can couple to 3 nuclei and the partner electron (in RQT). In RQM …
+- Now this opens a further possibility suvh that a H2 might effectively couple or realize into the s1/s2 layer of the O-Atom, which itself closes its p-orbitals. And H provides the „holder“ for some s-orbital periods.
+
+(Molecular angles)
+
+The molecular angles are an optimization of the orbital electron paths in conbination with the optimal rotational resonance angles/planes available in the nucleus core. Expectation: The resonance planes will approx. align to the dodecahedral structure. For 3 Alpha (C) this is a triangular angle (120 degr). For 4 Alphas this is a Tetrahedral angle(109 degr). For  a 5 Alpha core this might be linear or Di-tetrahedral (). But does not apply as electrons close all resonances capacities (shells).
+
+CO2: O ist eager to draw in 2 electrons to complete its s1/s2 p-Resonance dimensions. For the central C only 2 electrons remain for the presumably s2 shell (not s1). C now interacts with the s2 shells of the neighboring atoms in linear way. 
+
+The „shell“ closures are different in a single Atom and within a molecule, as there are different options for more optimal solutions. A Single C will start to enter multi-period/amp orbitals (p-orbital). Where as a CH4 has 10 electrons = 5 pairs. In RQM will be realized with 2 parallel rotation planes of 2 electrons as H:C:H, and this in 2 dimensions. So where does the remaining pair place itself? This will be in the middle plain between two valence-planes. 
+
+
+Looking at a C2-H6
+
+A double-binding might be a p-shell pair closing and a s-shell pair closing.  The trajectories … in pure RQM precession view with alpha nuclei, the electron-pair positions would always need to go through the alphas centers, no need for keeping distance but angle. 
+
+Single Proton cores are different (e.g. H-Atom) - they mostly keep their electron distance locked, on circles between the cores. This still allows H:C:H resonance structures. For the C Atom two electron pairs remain cenetered at their alphas.
+
+The 5th pair in - does this remain as uninvolved lower radius s1 pair? Or will it interact in a further mid-layer plane? Parallel or in the free remaining orientation? In the second c
