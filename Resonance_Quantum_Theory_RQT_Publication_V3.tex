@@ -2035,6 +2035,76 @@ An anchored channel is a realized resonance relation whose endpoint is constrain
 Thus, a free electron-like enclosure is mainly phase-constrained by its own internal Roton state, while a proton-side e-span endpoint is mainly position-constrained by the proton geometry. In a realized proton-electron channel, both constraints act together.
 
 
+\subsection{Resonance Structure Notation}
+
+As resonance identities become more complex, their internal structure and external coupling properties are difficult to describe repeatedly in prose. RQM therefore uses a compact structural notation that distinguishes the resonance relations forming an identity from the resonance properties exposed to higher structural levels.
+
+\[
+\boxed{
+\underbrace{[\text{resonance structure}]}_{\text{identity}}
+\;\Big|\;
+\underbrace{\text{external resonance signature}}_{\text{higher-level interaction}}
+}
+\]
+
+The structural part describes how lower-level resonance entities combine into a higher-level identity. Square brackets denote the identity currently represented, while parentheses may be used for enclosed lower-level substructures. A dash denotes direct mutual resonance closure,
+\[
+e-e,
+\]
+whereas the symbols \(<\) and \(>\) indicate directed structural anchoring between different resonance levels.
+
+Subscripts indicate multiplicity. Thus \(q_3\), \(e_2\), and \(s_2\) denote three q-span, two e-span, and two s-span contributions respectively. For orbital spans, the resonance family is included in the symbol itself, for example \(\mathrm{o1}\), \(\mathrm{o2}\), and \(\mathrm{o3}\), while a subscript continues to indicate multiplicity.
+
+The external resonance signature contains only properties relevant outside the represented identity. Entries without further marking denote resonance channels that remain available for higher-level coupling. A superscript \(r\) denotes \emph{residual exposure},
+\[
+q_{12}^{r},
+\]
+which contributes externally but does not represent independently addressable channel potential. New channel closures may nevertheless become available if the underlying resonance structure is reorganized under sufficiently close and compatible coupling conditions.
+
+The notation is intentionally structural rather than exhaustive. Internal closure mechanisms that have already been defined for a lower-level entity are normally omitted unless they are relevant to the current discussion.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ll}
+\hline
+\textbf{Notation} & \textbf{Meaning} \\
+\hline
+$[\,\cdots\,]$ & resonance identity currently represented \\
+$(\,\cdots\,)$ & enclosed lower-level substructure \\
+$-$ & direct mutual resonance closure \\
+$<,\;>$ & directed structural anchoring \\
+$_n$ & multiplicity of equivalent span contributions \\
+$^{r}$ & residual external exposure; no directly addressable channel \\
+$\big|$ & separates internal structure from external resonance signature \\
+$s,e,q,\mathrm{o1},\mathrm{o2},\ldots$ & Sonon-, electron-, quon-, and orbital-span types \\
+$p_{\lambda}$ & photon identity characterized by wavelength $\lambda$ \\
+\hline
+\end{tabular}
+\caption{Compact syntax used for RQM resonance structure notation.}
+\end{table}
+
+For example, a photon formed from two mutually closed Sonon contributions may be written as
+\[
+\boxed{
+p_{\lambda}=[s-s]
+}
+\]
+where the wavelength \(\lambda\) characterizes the resulting photon resonance.
+
+A proton may be represented schematically as
+\[
+\boxed{
+P=(e<q_3)
+\;\Big|\;
+e,\;q_3^{r}
+}
+\]
+indicating one externally available e-span channel together with residual exposure originating from three q-span contributions.
+
+The notation therefore serves as a compact structural identity card rather than as an equation of motion. It will be used throughout the following sections to summarize the internal resonance organization and externally relevant resonance signature of particles, atoms, and molecules.
+
+
+
 % ————————————————————
 
 \subsection{From Electron-like Enclosures to e-span Nodes}
@@ -2520,12 +2590,166 @@ This section develops that transition: from anchored electron-core relations, to
 \textbf{In this view, atoms and molecules are not built by placing electrons around fixed nuclei. They are resonance compounds in which nuclear anchors, electron-like enclosures, and shared channel trajectories co-determine the stable geometry.}
 
 \subsection{Atoms}
-\subsubsection{Electron-Core Relations}
-\subsubsection{Orbitals as Resonance-Matching Trajectories}
-\subsubsection{Paired Electrons and Shell Closure}
-\subsubsection{Molecular Binding as Shared Channel Geometry}
+
+%
+% 1. Orbital Closure
+%    - electron/core locking
+%    - single electron
+%    - symmetric paired-electron closure
+
+\paragraph{Orbital Closure.}
+In RQM, an orbital electron is not held around the nucleus by a balancing force. Its orbital state is a recurring resonance structure in which at least one electron channel remains phase-locked to an anchored e-span node of the atomic core. Orbital distance and period therefore emerge from the closure itself.
+
+In the strict RQM representation, an electron provides up to three directional e-span channels. Once one channel participates in a stable orbital closure, however, the resulting trajectory can constrain or effectively enclose the remaining channel capacity. These channels are therefore not independently available at all times. RQT itself does not require a fixed number of possible resonance relations; three channels are a sufficient geometric representation within RQM.
+
+A single orbital electron can already form a stable core coupling while retaining \emph{open resonance capacity}: its existing resonance relations may still reorganize if additional compatible partners allow a more complete closure. This is distinct from a geometrically open channel.
+
+Paired orbital electrons provide a particularly favorable case. The two electrons can couple mutually while locking symmetrically into corresponding core anchors. Alpha-like core structures are especially suitable for such paired closure, since their internally displaced e-span anchors allow symmetric dynamic distance and direction.
+
+This double locking is not restricted to a simple circular orbit. Any recurring trajectory that preserves the required phase relations and symmetry can contribute to the same closure. More complex orbital structures therefore become possible when several compatible resonance periods or spatial components participate.
+
+Geometric channel relations and \emph{open resonance capacity} should thus be distinguished: the former describe represented resonance directions, while the latter describes the ability of an already stable structure to enter a different or more complete closure.
+
+
+% 2. Orbital Resonance Hierarchies
+%    - fundamental orbital period
+%    - commensurate periods
+%    - why further electrons seek different closures rather than
+%      merely occupying an identical trajectory
+
+
+
+\paragraph{Orbital Resonance Hierarchies.}
+RQM begins with the simplest stable orbital resonance available to the current atomic configuration: a planar electron–core resonance with characteristic period (T_1). A paired electron configuration can close symmetrically into corresponding e-span anchors of the core and thereby establish a particularly stable orbital relation. Additional electrons do not necessarily reproduce the same resonance. Once a particular period, orientation, and core closure is already established, a further compatible period (T_2) may provide a more favorable contribution to the closure of the complete atom.
+
+The resulting orbital hierarchy is therefore not assumed in advance. It develops from a set of mutually compatible principal resonance periods,
+[
+T_1,;T_2,;T_3,\ldots,
+]
+whose absolute periods and corresponding spatial scales may differ between atomic configurations. Stable combinations are expected to favor commensurate periods whose phase relations repeatedly realign. A higher orbital period can thus become favorable when it adds a new resonance relation to the existing structure rather than merely duplicating an already established one. Orbital distance follows from this resonance optimization and is not itself introduced as the cause of stability.
+
+% 3. Multi-Period Orbital Structures
+%    - planar Roton components
+%    - combined resonance trajectories
+%    - qualitative relation to s/p/... orbital families
+
+\paragraph{Multi-Period Orbital Structures.}
+Once more than one principal orbital resonance is available, a stable electron trajectory may combine several directional resonance components. RQM represents such a trajectory by its dominant Roton decomposition,
+[
+\mathbf{T}=(T_x,T_y,T_z),
+]
+where each component describes a principal rotational resonance with its own period, effective radius or amplitude, axis orientation, radial variation, and phase relation.
+
+The simplest planar orbital may therefore be represented schematically as
+[
+(T_1,T_1,0),
+]
+while a higher planar resonance may take the form
+[
+(T_2,T_2,0).
+]
+More complex self-closing trajectories may combine the principal periods,
+[
+(T_1,T_1,T_2),\qquad
+(T_1,T_2,T_1),\qquad
+(T_2,T_1,T_1),
+]
+and analogous permutations or higher-order combinations. Not every mathematical combination is expected to close: realizable orbital structures are restricted to trajectories whose periods, phases, amplitudes, and spatial orientations form a recurring resonance within the available core and electron spans.
+
+A three-dimensional orbital is therefore not introduced as a new primitive shape, but as the combined trajectory of simpler directional Rotons. The same structure can be viewed either as a set of rotational resonance planes or as the resulting repeating electron trajectory. In the latter representation, different component periods can generate elongated or multi-lobed projections resembling the spatial orbital families used in conventional atomic descriptions. In RQM these lobes are projections of the underlying phase-dependent trajectory rather than separate regions that the electron must occupy independently. The Roton representation is particularly useful because its planes and exposed o-span directions remain directly available when later considering atomic and molecular resonance coupling.
+
+
+% 4. Paired and Unpaired Orbital Electrons
+%    - paired electrons maximize local enclosure
+%    - unpaired electrons retain usable open channels
+
+\paragraph{Paired and Unpaired Orbital Electrons.}
+Electron pairing introduces an additional level of closure. A paired orbital does not merely contain two electrons following compatible trajectories: each electron can retain a specific resonance relation to a corresponding core e-span anchor while the pair simultaneously contributes to a symmetric combined closure. Such symmetry is favorable because asymmetric orbital coupling would require additional compensation within the core and the surrounding resonance structure.
+
+These electron–core relations remain structurally identifiable even when equivalent electrons may exchange their roles. In RQM, exchanging such roles therefore corresponds to opening and re-establishing resonance closures rather than to a purely formal relabeling. The associated closure transition is expected to require a finite snap-in or snap-out energy, although this scale is not quantified in the present model.
+
+Unpaired orbital electrons retain greater open resonance capacity. Their existing electron–core closure may remain stable while alternative channel relations can still become favorable when compatible resonance partners are introduced. Paired electrons, in contrast, generally achieve a more complete local enclosure through their mutual and symmetric core relations. This distinction later becomes important when atomic orbital structures reorganize into shared multi-nuclear resonance structures during molecular binding.
+
+
+% 5. Atomic Resonance Capacity
+%    - balance between enclosure and remaining coupling capacity
+
+\paragraph{Atomic Resonance Latitude.}
+A stable atomic structure is not characterized only by how completely its present resonances are enclosed. It may also retain different possibilities for realizing additional or alternative closures when suitable resonance partners become available. RQM refers to this structural freedom as \emph{resonance realization latitude}, or more briefly \emph{resonance latitude}.
+
+Resonance latitude is not a scalar quantity and is not identified with a fixed number of unused channels. It depends on the geometry, period, phase, orientation, and enclosure of the existing resonance structure. An unpaired electron may provide an obvious possibility for further coupling, but whether this possibility can be realized depends equally on the supporting core geometry and on the availability of compatible resonance partners.
+
+Additional latitude can also emerge from improved internal organization. Electron pairing may establish a tighter and more symmetric e-span closure to the core, while multi-period orbital trajectories can distribute resonance relations over several compatible directions and periods. A structure that is more completely enclosed locally may therefore support more stable resonance possibilities elsewhere rather than simply having less remaining capacity.
+
+Residual exposure does not itself constitute an available channel. It may, however, contribute to a restructuring when several identities enter sufficiently close and compatible resonance conditions. In such cases previously internal, residual, or externally available relations may reorganize into a new higher-level closure.
+
+Resonance latitude therefore describes the set of resonance improvements that a structure can still realize while preserving or replacing its current enclosure with a more favorable one. It is distinct from \emph{resonance accommodation capacity}, which describes how much perturbation an existing resonance structure can absorb or redistribute before its closure is lost.
+
+
+% 6. Transition to Molecular Binding
+%    - atomic orbital structures may reorganize when another
+%      atomic core enters coupling range
+%
+
+\paragraph{Transition to Molecular Binding.}
+The orbital structures described above are local resonance solutions of an isolated atom. They are therefore not assumed to remain unchanged when another atomic structure enters effective coupling range. Once compatible core anchors, orbital spans, or residual resonance relations become accessible, the closure problem changes: resonance relations that were previously optimal within one atom may reorganize into a more favorable multi-atomic structure.
+
+Molecular binding primarily exploits the \emph{resonance realization latitude} retained by the participating atoms. Electron pairing, redistribution of orbital resonance components, and the ability of individual electrons to establish compatible relations with several cores or partner electrons provide the principal routes by which separate atomic closures can reorganize into a shared molecular resonance structure.
+
+Existing electron–core closures may remain largely intact, shift in period or orientation, or become components of shared trajectories involving several nuclei. RQM can represent this transition in two complementary ways. The Roton representation retains the principal orbital planes and emphasizes the newly established coupling relations between atoms, while the resonance-trajectory representation follows the resulting combined electron path through the multi-core structure.
+
+Molecular binding is therefore treated as the formation of a higher-level resonance closure from the realization latitude of its constituent atoms, rather than as an additional force acting between otherwise unchanged atomic structures.
+
+%% Old variant
+% \subsubsection{Electron-Core Relations}
+% \subsubsection{Orbitals as Resonance-Matching Trajectories}
+% \subsubsection{Paired Electrons and Shell Closure}
+% \subsubsection{Molecular Binding as Shared Channel Geometry}
+
+
+% ————————————————————
+
 
 \subsection{Molecular Binding}
+
+\paragraph{From Atomic to Shared Resonance Closure.}
+% isolated atomic resonance solutions become a combined optimization problem
+% molecular binding uses resonance realization latitude
+% no additional "bond force" is introduced
+
+\paragraph{Electron-Mediated Multi-Core Closure.}
+% electrons may couple to more than one core through their available e-span relations
+% paired electrons can close against two cores and/or each other
+% shared electron structures can stabilize the relative placement of nuclei
+
+\paragraph{Reorganization of Orbital Resonances.}
+% atomic orbitals are allowed to change period, orientation, phase and trajectory
+% previously atomic orbital components become parts of a molecular trajectory
+% distinction between preserving an atomic closure and reorganizing it
+
+\paragraph{Roton and Resonance-Trajectory Representations.}
+% Roton view: keep principal orbital planes and show inter-core couplings
+% trajectory view: combined repeating electron trajectory around several nuclei
+% same molecular closure viewed at different geometric resolution
+
+\paragraph{Single and Multiple Molecular Closures.}
+% one shared closure vs several simultaneous electron-mediated closures
+% paired/unpaired electrons
+% qualitative origin of single/double/... binding without importing bond-order rules
+
+\paragraph{Molecular Geometry.}
+% stable nuclear positions follow from closure geometry
+% molecular angles reflect core-anchor geometry + orbital resonance geometry
+% symmetry, orientation and dynamic distance
+% H2O, CO2, CH4 later as examples
+
+\paragraph{Residual Molecular Exposure.}
+% after molecular closure, the molecule still presents an external resonance signature
+% remaining o-span channels and residual q/o exposure
+% prepares intermolecular coupling and resonance networks
+
+% ————————————————————
+
 \subsection{Resonance Networks}
 \subsection{Closure Hierarchies}
 
