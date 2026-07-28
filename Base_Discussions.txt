@@ -85,4 +85,8 @@ A double-binding might be a p-shell pair closing and a s-shell pair closing.  Th
 
 Single Proton cores are different (e.g. H-Atom) - they mostly keep their electron distance locked, on circles between the cores. This still allows H:C:H resonance structures. For the C Atom two electron pairs remain cenetered at their alphas.
 
-The 5th pair in - does this remain as uninvolved lower radius s1 pair? Or will it interact in a further mid-layer plane? Parallel or in the free remaining orientation? In the second c
+The 5th pair in - does this remain as uninvolved lower radius s1 pair? Or will it interact in a further mid-layer plane? Parallel or in the free remaining orientation? In the second case one spatial direction might be stronger than the other.
+
+
+
+
